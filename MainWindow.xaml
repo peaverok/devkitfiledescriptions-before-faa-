@@ -1,0 +1,62 @@
+﻿<Window x:Class="DevKitFileDescriptions.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DevKitFileDescriptions"
+        mc:Ignorable="d"
+        Name="MainFileDescriptionWindow"
+        Title="DevKit File Descriptions" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="20"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="20"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label x:Name="DirectoryNameLabel" HorizontalAlignment="Right" Content="Directory:" Height="30" Grid.Row="1" Grid.Column="1" />
+        <TextBox x:Name="DirectoryNameTextBox" IsReadOnly="True" Height="30" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" />
+        <Button x:Name="SelectDirectoryButton" HorizontalAlignment="Left" Height="30" Width="100" Grid.Row="1" Grid.Column="5" Content="Select Directory" Click="SelectDirectoryButton_Click" />
+        <Button x:Name="ProcessDirectoryButton" HorizontalAlignment="Left" Height="30" Width="100" Grid.Row="1" Grid.Column="7" Content="Process Directory" Click="ProcessDirectoryButton_Click" />
+
+        <Label x:Name="ModuleNameLabel" HorizontalAlignment="Right" Content="Module:" Height="30" Grid.Row="3" Grid.Column="1" />
+        <ComboBox x:Name="ModuleComboBox" IsEditable="False" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Center">
+            <ComboBoxItem IsSelected="True" Tag="angular">Angular Module</ComboBoxItem>
+            <ComboBoxItem Tag="auth">Auth Module</ComboBoxItem>
+            <ComboBoxItem Tag="node">Node Module</ComboBoxItem>
+        </ComboBox>
+
+        <CheckBox x:Name="GenerateFileListCheckBox" VerticalAlignment="Center" Content="Generate New File List" Grid.Column="5" HorizontalAlignment="Left" Grid.Row="3"/>
+
+        <Button x:Name="SaveFileList" HorizontalAlignment="Left" Height="30" Width="100" Grid.Row="3" Grid.Column="7" Content="Save File List" Click="SaveFileListButton_Click" />
+
+        <Border BorderThickness="1" BorderBrush="Black" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="7">
+            <TabControl>
+                <TabItem Header="Json File">
+                    <Border BorderThickness="1" BorderBrush="Black">
+                        <TextBox x:Name="JsonFile" VerticalScrollBarVisibility="Auto" />
+                    </Border>
+                </TabItem>
+                <TabItem Header="File List">
+                    <Border BorderThickness="1" BorderBrush="Black">
+                        <TextBox x:Name="FileList" VerticalScrollBarVisibility="Auto" />
+                    </Border>
+                </TabItem>
+            </TabControl>
+        </Border>
+    </Grid>
+</Window>

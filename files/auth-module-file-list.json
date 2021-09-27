@@ -1,0 +1,572 @@
+﻿[
+  {
+    "key": "0",
+    "label": ".git",
+    "data": "Folder that contains all of the information required for version control using Git.",
+    "directory": ".git"
+  },
+  {
+    "key": "1",
+    "label": ".husky",
+    "data": "Folder that contains Husky hook files and files that assist with Husky hooks.",
+    "directory": ".husky"
+  },
+  {
+    "key": "2",
+    "label": "_",
+    "data": "Container folder for files that assist with Husky hooks.",
+    "directory": ".husky\\_"
+  },
+  {
+    "key": "3",
+    "label": "husky.sh",
+    "data": "Husky shell executable file used to run hooks in a unix (linux) environment",
+    "directory": ".husky\\_"
+  },
+  {
+    "key": "4",
+    "label": ".gitignore",
+    "data": "File used to inform Git which Husky files to ignore.",
+    "directory": ".husky"
+  },
+  {
+    "key": "5",
+    "label": "pre-commit",
+    "data": "Husky hook to automatically run lint script before commit.",
+    "directory": ".husky"
+  },
+  {
+    "key": "6",
+    "label": ".nyc_output",
+    "data": "Istanbul output folder",
+    "directory": ".nyc_output"
+  },
+  {
+    "key": "7",
+    "label": ".vscode",
+    "data": "Folder that contains VSCode workspace settings files.",
+    "directory": ".vscode"
+  },
+  {
+    "key": "8",
+    "label": "settings.json",
+    "data": "File that contains default VSCode IDE settings.",
+    "directory": ".vscode"
+  },
+  {
+    "key": "9",
+    "label": "coverage",
+    "data": "Code coverage report output folder.",
+    "directory": "coverage"
+  },
+  {
+    "key": "10",
+    "label": "dist",
+    "data": "Folder that contains results of the build script.",
+    "directory": "dist"
+  },
+  {
+    "key": "11",
+    "label": "environment",
+    "data": "Folder that contains the environment files (local and samples).",
+    "directory": "environment"
+  },
+  {
+    "key": "12",
+    "label": "app.env",
+    "data": "Local environment file.",
+    "directory": "environment"
+  },
+  {
+    "key": "13",
+    "label": "app.paramstore.env",
+    "data": "AWS parameter store example environment file.",
+    "directory": "environment"
+  },
+  {
+    "key": "15",
+    "label": "local",
+    "data": "Folder that contains local certification files.",
+    "directory": "local"
+  },
+  {
+    "key": "16",
+    "label": "cert.pem",
+    "data": "Local self-generated certificate file.",
+    "directory": "local"
+  },
+  {
+    "key": "17",
+    "label": "devkit-local_IDPMetadata.xml",
+    "data": "MyAccess SAML local IDP metadata file.",
+    "directory": "local"
+  },
+  {
+    "key": "18",
+    "label": "generateCert",
+    "data": "File demonstrating how to generate certificates.",
+    "directory": "local"
+  },
+  {
+    "key": "19",
+    "label": "key.pem",
+    "data": "Local self-generated certificate key file.",
+    "directory": "local"
+  },
+  {
+    "key": "20",
+    "label": "myaccess.cert",
+    "data": "MyAccess certificate file for local testing.",
+    "directory": "local"
+  },
+  {
+    "key": "21",
+    "label": "okta.cert",
+    "data": "Okta certificate file for local testing.",
+    "directory": "local"
+  },
+  {
+    "key": "23",
+    "label": "logs",
+    "data": "Folder that contains the event logs.",
+    "directory": "logs"
+  },
+  {
+    "key": "24",
+    "label": "node_modules",
+    "data": "Folder that contains all of the node modules for packages defined in package.json",
+    "directory": "node_modules"
+  },
+  {
+    "key": "25",
+    "label": "sessions",
+    "data": "Folder that contains the sessions when using file storage express sessions.",
+    "directory": "sessions"
+  },
+  {
+    "key": "29",
+    "label": "src",
+    "data": "Folder that contains the source code and assets for the module.",
+    "directory": "src"
+  },
+  {
+    "key": "30",
+    "label": "core",
+    "data": "Folder that contains the core components and source code for the module. These file should NOT be changed.",
+    "directory": "src\\core"
+  },
+  {
+    "key": "31",
+    "label": "models",
+    "data": "Folder that contains the core models for the module.",
+    "directory": "src\\core\\models"
+  },
+  {
+    "key": "32",
+    "label": "access-token.ts",
+    "data": "The access token model source code file.",
+    "directory": "src\\core\\models"
+  },
+  {
+    "key": "33",
+    "label": "refresh-token.ts",
+    "data": "The refresh token model source code file.",
+    "directory": "src\\core\\models"
+  },
+  {
+    "key": "34",
+    "label": "temp-token.ts",
+    "data": "The temporary token model source code file.",
+    "directory": "src\\core\\models"
+  },
+  {
+    "key": "35",
+    "label": "token-response.ts",
+    "data": "The token response model source code file.",
+    "directory": "src\\core\\models"
+  },
+  {
+    "key": "36",
+    "label": "services",
+    "data": "Folder that contains the core services for the module.",
+    "directory": "src\\core\\services"
+  },
+  {
+    "key": "37",
+    "label": "api",
+    "data": "Folder that contains the source code files that interact with the RESTful API (Node Module).",
+    "directory": "src\\core\\services\\api"
+  },
+  {
+    "key": "38",
+    "label": "refresh-token.service.ts",
+    "data": "Refresh token API service source code file.",
+    "directory": "src\\core\\services\\api"
+  },
+  {
+    "key": "39",
+    "label": "user.service.ts",
+    "data": "User API service source code file.",
+    "directory": "src\\core\\services\\api"
+  },
+  {
+    "key": "40",
+    "label": "oidc",
+    "data": "Folder that contains the OIDC source code files.",
+    "directory": "src\\core\\services\\oidc"
+  },
+  {
+    "key": "41",
+    "label": "passport-okta-oidc-web-config.service.ts",
+    "data": "Okta OIDC Web passport configuration service source code file.",
+    "directory": "src\\core\\services\\oidc"
+  },
+  {
+    "key": "42",
+    "label": "passport-okta-oidc-web.service.ts",
+    "data": "Okta OIDC Web passport service source code file.",
+    "directory": "src\\core\\services\\oidc"
+  },
+  {
+    "key": "43",
+    "label": "routing",
+    "data": "Folder that contains the routing source code files.",
+    "directory": "src\\core\\services\\routing"
+  },
+  {
+    "key": "44",
+    "label": "route-processing.service.ts",
+    "data": "Route processing service source code file.",
+    "directory": "src\\core\\services\\routing"
+  },
+  {
+    "key": "45",
+    "label": "route-response.service.ts",
+    "data": "Route response service source code file.",
+    "directory": "src\\core\\services\\routing"
+  },
+  {
+    "key": "46",
+    "label": "route-token.service.ts",
+    "data": "Route token service source code file.",
+    "directory": "src\\core\\services\\routing"
+  },
+  {
+    "key": "47",
+    "label": "route.service.ts",
+    "data": "Route service source code file.",
+    "directory": "src\\core\\services\\routing"
+  },
+  {
+    "key": "48",
+    "label": "saml",
+    "data": "Folder that contains the SAML source code files.",
+    "directory": "src\\core\\services\\saml"
+  },
+  {
+    "key": "49",
+    "label": "passport-microsoftad-saml-config.service.ts",
+    "data": "Microsoft Active Directory SAML passport configuration service source code file.",
+    "directory": "src\\core\\services\\saml"
+  },
+  {
+    "key": "50",
+    "label": "passport-myaccess-saml-config.service.ts",
+    "data": "MyAccess SAML passport configuration service source code file.",
+    "directory": "src\\core\\services\\saml"
+  },
+  {
+    "key": "51",
+    "label": "passport-okta-saml-config.service.ts",
+    "data": "Okta SAML passport configuration service source code file.",
+    "directory": "src\\core\\services\\saml"
+  },
+  {
+    "key": "52",
+    "label": "passport-saml.service.ts",
+    "data": "Passport SAML service source code file.",
+    "directory": "src\\core\\services\\saml"
+  },
+  {
+    "key": "53",
+    "label": "tokens",
+    "data": "Folder that contains the tokens source code files.",
+    "directory": "src\\core\\services\\tokens"
+  },
+  {
+    "key": "54",
+    "label": "token.service.ts",
+    "data": "Token service source code file.",
+    "directory": "src\\core\\services\\tokens"
+  },
+  {
+    "key": "55",
+    "label": "aws-parameter-store.service.ts",
+    "data": "AWS parameter store service source code file.",
+    "directory": "src\\core\\services"
+  },
+  {
+    "key": "56",
+    "label": "environment.service.ts",
+    "data": "Environment service source code file.",
+    "directory": "src\\core\\services"
+  },
+  {
+    "key": "57",
+    "label": "loggerservice.ts",
+    "data": "Logger service source code file.",
+    "directory": "src\\core\\services"
+  },
+  {
+    "key": "58",
+    "label": "morganmiddlewareservice.ts",
+    "data": "Morgan middleware service source code file.",
+    "directory": "src\\core\\services"
+  },
+  {
+    "key": "59",
+    "label": "passport-strategy.service.ts",
+    "data": "Passport strategy source code file.",
+    "directory": "src\\core\\services"
+  },
+  {
+    "key": "60",
+    "label": "passport-user.service.ts",
+    "data": "Passport user service source code file.",
+    "directory": "src\\core\\services"
+  },
+  {
+    "key": "61",
+    "label": "response-codes.service.ts",
+    "data": "Response code serviced source code file.",
+    "directory": "src\\core\\services"
+  },
+  {
+    "key": "62",
+    "label": "typings",
+    "data": "Folder that contains the core typings.",
+    "directory": "src\\core\\typings"
+  },
+  {
+    "key": "63",
+    "label": "base-url.ts",
+    "data": "Custom base URL type source code file.",
+    "directory": "src\\core\\typings"
+  },
+  {
+    "key": "64",
+    "label": "deserialize-user.ts",
+    "data": "Custom deserialize user type source code file.",
+    "directory": "src\\core\\typings"
+  },
+  {
+    "key": "65",
+    "label": "environment-configuration.ts",
+    "data": "Custom enviroment Configuration type source code file.",
+    "directory": "src\\core\\typings"
+  },
+  {
+    "key": "66",
+    "label": "oidc-web-configuration.ts",
+    "data": "Custom OIDC web configuration type source code file.",
+    "directory": "src\\core\\typings"
+  },
+  {
+    "key": "67",
+    "label": "passport-configuration.ts",
+    "data": "Custom passport configuration type source code file.",
+    "directory": "src\\core\\typings"
+  },
+  {
+    "key": "68",
+    "label": "permission.ts",
+    "data": "Custom permission type source code file.",
+    "directory": "src\\core\\typings"
+  },
+  {
+    "key": "69",
+    "label": "refresh-token.ts",
+    "data": "Custom refresh token type source code file.",
+    "directory": "src\\core\\typings"
+  },
+  {
+    "key": "70",
+    "label": "request-user-values.ts",
+    "data": "Custom request user values type source code file.",
+    "directory": "src\\core\\typings"
+  },
+  {
+    "key": "71",
+    "label": "role.ts",
+    "data": "Custom role type source code file.",
+    "directory": "src\\core\\typings"
+  },
+  {
+    "key": "72",
+    "label": "saml-configuration.ts",
+    "data": "Custom SAMl configuration type source code file.",
+    "directory": "src\\core\\typings"
+  },
+  {
+    "key": "73",
+    "label": "tokens.ts",
+    "data": "Custom token type source code file.",
+    "directory": "src\\core\\typings"
+  },
+  {
+    "key": "74",
+    "label": "user.ts",
+    "data": "Custom user type source code file.",
+    "directory": "src\\core\\typings"
+  },
+  {
+    "key": "75",
+    "label": "app.ts",
+    "data": "Main module source code file.",
+    "directory": "src\\core"
+  },
+  {
+    "key": "76",
+    "label": "constants.ts",
+    "data": "File that contains the core constants.",
+    "directory": "src\\core"
+  },
+  {
+    "key": "77",
+    "label": "core.config.ts",
+    "data": "File that contains the core configuration.",
+    "directory": "src\\core"
+  },
+  {
+    "key": "78",
+    "label": "server.ts",
+    "data": "Main server source code file.",
+    "directory": "src\\core"
+  },
+  {
+    "key": "79",
+    "label": "serverless.ts",
+    "data": "Main serverless source code file.",
+    "directory": "src\\core"
+  },
+  {
+    "key": "80",
+    "label": "shared",
+    "data": "Folder that contains the shared components and source code for the module. These file you are free to alter as necessary.",
+    "directory": "src\\shared"
+  },
+  {
+    "key": "81",
+    "label": "services",
+    "data": "Folder that contains the shared services source code files.",
+    "directory": "src\\shared\\services"
+  },
+  {
+    "key": "82",
+    "label": "secret.service.ts",
+    "data": "Secret service source code file.",
+    "directory": "src\\shared\\services"
+  },
+  {
+    "key": "83",
+    "label": "api-response.ts",
+    "data": "API response source code file.",
+    "directory": "src\\shared"
+  },
+  {
+    "key": "84",
+    "label": "app.config.ts",
+    "data": "Shared module configuration source code file. Set your module configuration here.",
+    "directory": "src\\shared"
+  },
+  {
+    "key": "85",
+    "label": "permissions.ts",
+    "data": "Shared module permissions source code file.",
+    "directory": "src\\shared"
+  },
+  {
+    "key": "86",
+    "label": "tests",
+    "data": "Folder that contains the module tests.",
+    "directory": "src\\tests"
+  },
+  {
+    "key": "87",
+    "label": ".editorconfig",
+    "data": "EditorConfig configuration file.",
+    "directory": "C:\\DevProjects\\auth-module-before-faa"
+  },
+  {
+    "key": "88",
+    "label": ".eslintrc.js",
+    "data": "ESLint configuration file.",
+    "directory": "C:\\DevProjects\\auth-module-before-faa"
+  },
+  {
+    "key": "89",
+    "label": ".gitignore",
+    "data": "File used to inform Git which module files to ignore.",
+    "directory": "C:\\DevProjects\\auth-module-before-faa"
+  },
+  {
+    "key": "90",
+    "label": ".nycrc",
+    "data": "Istanbul configuration file.",
+    "directory": "C:\\DevProjects\\auth-module-before-faa"
+  },
+  {
+    "key": "91",
+    "label": ".prettierignore",
+    "data": "File used by prettier to ignore certain artifacts.",
+    "directory": "C:\\DevProjects\\auth-module-before-faa"
+  },
+  {
+    "key": "92",
+    "label": "Jenkinsfile",
+    "data": "File that sets up Jenkins pipeline.",
+    "directory": "C:\\DevProjects\\auth-module-before-faa"
+  },
+  {
+    "key": "93",
+    "label": "nodemon.json",
+    "data": "File that configures nodemon.",
+    "directory": "C:\\DevProjects\\auth-module-before-faa"
+  },
+  {
+    "key": "94",
+    "label": "package-lock.json",
+    "data": "File generated when packages are installed.",
+    "directory": "C:\\DevProjects\\auth-module-before-faa"
+  },
+  {
+    "key": "95",
+    "label": "package.json",
+    "data": "Standard package file used to setup the module.",
+    "directory": "C:\\DevProjects\\auth-module-before-faa"
+  },
+  {
+    "key": "96",
+    "label": "README.md",
+    "data": "Read me file for the module.",
+    "directory": "C:\\DevProjects\\auth-module-before-faa"
+  },
+  {
+    "key": "97",
+    "label": "serverless.yml",
+    "data": "Serverless setup source code file.",
+    "directory": "C:\\DevProjects\\auth-module-before-faa"
+  },
+  {
+    "key": "98",
+    "label": "sonar-project.properties",
+    "data": "File used to setup SonarQube scan.",
+    "directory": "C:\\DevProjects\\auth-module-before-faa"
+  },
+  {
+    "key": "99",
+    "label": "tsconfig.json",
+    "data": "General TypeScript configuration file.",
+    "directory": "C:\\DevProjects\\auth-module-before-faa"
+  }
+]

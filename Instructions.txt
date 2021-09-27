@@ -1,0 +1,16 @@
+You should do the following:
+1.	Select the appropriate module from the “Module” dropdown and the directory where the source code is contained using the “Select Directory” button. Check the “Generate New File List” checkbox and click the “Process Directory” button.
+a.	This will generate the file list for the given module and directory and place it in the second tab labeled “File List”. This will generate the current file list and attempt to look up descriptions for files from the previous module file list contained in the {module-name}-module-file-list.json file in the files folder. This will save you a tremendous amount of time when typing in the file descriptions.
+2.	Save the file list by clicking the “Save File List” button. This will save the file list as {module-name}-module-file-list-new.json in the files directory. 
+
+3.	CLOSE AND STOP THE DEVKIT FILE DESCRIPTIONS APPLICATION!
+4.	Review and update the {module-name}-module-file-list-new.json file created in step 2 which will be saved in the bin\debug\files folder. You can open it in Visual Studio and “Format Document” to get the file formatted correctly. A helpful tip is if you search for "data": "" you can find all of the descriptions that are empty and need to be added.
+
+
+THE FOLLOWING STEPS (5 AND 6) ARE IN THE SOURCE CODE DIRECTORY NOT THE BIN\DEBUG DIRECTORY!
+5.	Replace the contents of the {module-name}-module-file-list-old.json file with the contents of the {module-name}-module-file-list.json. This is just for backup purposes.
+6.	Replace the contents of the {module-name}-module-file-list.json file with the contents of the {module-name}-module-file-list-new.json that was generated and then updated in steps 2 and 4. You can now generate the module file description json for use in the Angular module tree control!
+
+7.	RESTART THE DEVKIT FILE DESCRIPTIONS APPLICATION!
+8.	Select the appropriate module from the “Module” dropdown and the directory where the source code is contained using the “Select Directory” button. Ensure that the the “Generate New File List” checkbox IS NOT CHECKED and click the “Process Directory” button.
+9.	Copy and paste the contents of the Json File tab into the appropriate file in the Angular module src/assets/devkit/data/{module-name}-module-files.json file.

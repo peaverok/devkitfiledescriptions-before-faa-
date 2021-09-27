@@ -1,0 +1,392 @@
+﻿[
+  {
+    "key": "0",
+    "label": ".git",
+    "data": "Folder that contains all of the information required for version control using Git.",
+    "directory": ".git"
+  },
+  {
+    "key": "1",
+    "label": ".husky",
+    "data": "Folder that contains Husky hook files and files that assist with Husky hooks.",
+    "directory": ".husky"
+  },
+  {
+    "key": "2",
+    "label": "_",
+    "data": "Container folder for files that assist with Husky hooks.",
+    "directory": ".husky\\_"
+  },
+  {
+    "key": "3",
+    "label": "husky.sh",
+    "data": "Husky shell executable file used to run hooks in a unix (linux) environment",
+    "directory": ".husky\\_"
+  },
+  {
+    "key": "4",
+    "label": ".gitignore",
+    "data": "File used to inform Git which Husky files to ignore.",
+    "directory": ".husky"
+  },
+  {
+    "key": "5",
+    "label": "pre-commit",
+    "data": "Husky hook to automatically run lint script before commit.",
+    "directory": ".husky"
+  },
+  {
+    "key": "6",
+    "label": ".vscode",
+    "data": "Folder that contains VSCode workspace settings files.",
+    "directory": ".vscode"
+  },
+  {
+    "key": "7",
+    "label": "settings.json",
+    "data": "File that contains default VSCode IDE settings.",
+    "directory": ".vscode"
+  },
+  {
+    "key": "8",
+    "label": "dist",
+    "data": "Folder that contains results of the build script.",
+    "directory": "dist"
+  },
+  {
+    "key": "9",
+    "label": "local",
+    "data": "Folder that contains local certification files.",
+    "directory": "local"
+  },
+  {
+    "key": "10",
+    "label": "generateCert",
+    "data": "File demonstrating how to generate certificates.",
+    "directory": "local"
+  },
+  {
+    "key": "11",
+    "label": "server.crt",
+    "data": "Local server certificate.",
+    "directory": "local"
+  },
+  {
+    "key": "12",
+    "label": "server.key",
+    "data": "Local server key.",
+    "directory": "local"
+  },
+  {
+    "key": "13",
+    "label": "logs",
+    "data": "Folder that contains the event logs.",
+    "directory": "logs"
+  },
+  {
+    "key": "14",
+    "label": "node_modules",
+    "data": "Folder that contains all of the node modules for packages defined in package.json",
+    "directory": "node_modules"
+  },
+  {
+    "key": "15",
+    "label": "src",
+    "data": "Folder that contains the source code and assets for the module.",
+    "directory": "src"
+  },
+  {
+    "key": "16",
+    "label": "core",
+    "data": "Folder that contains the core components and source code for the module. These file should NOT be changed.",
+    "directory": "src\\core"
+  },
+  {
+    "key": "17",
+    "label": "models",
+    "data": "Folder that contains the core models for the module.",
+    "directory": "src\\core\\models"
+  },
+  {
+    "key": "18",
+    "label": "access-token.ts",
+    "data": "The access token model source code file.",
+    "directory": "src\\core\\models"
+  },
+  {
+    "key": "19",
+    "label": "refresh-token.ts",
+    "data": "The refresh token model source code file.",
+    "directory": "src\\core\\models"
+  },
+  {
+    "key": "20",
+    "label": "temp-token.ts",
+    "data": "The temporary token model source code file.",
+    "directory": "src\\core\\models"
+  },
+  {
+    "key": "21",
+    "label": "token-response.ts",
+    "data": "The token response model source code file.",
+    "directory": "src\\core\\models"
+  },
+  {
+    "key": "22",
+    "label": "services",
+    "data": "Folder that contains the core services for the module.",
+    "directory": "src\\core\\services"
+  },
+  {
+    "key": "23",
+    "label": "logger.service.ts",
+    "data": "Logger service source code file.",
+    "directory": "src\\core\\services"
+  },
+  {
+    "key": "24",
+    "label": "morgan-middleware.service.ts",
+    "data": "Morgan middleware source code file.",
+    "directory": "src\\core\\services"
+  },
+  {
+    "key": "25",
+    "label": "passport-microsoftad-config.service.ts",
+    "data": "Microsoft Active Directory configuration service source code file.",
+    "directory": "src\\core\\services"
+  },
+  {
+    "key": "26",
+    "label": "passport-myaccess-config.service.ts",
+    "data": "MyAccess configuration service source code file.",
+    "directory": "src\\core\\services"
+  },
+  {
+    "key": "27",
+    "label": "passport-saml.service.ts",
+    "data": "Passport SAML service source code file.",
+    "directory": "src\\core\\services"
+  },
+  {
+    "key": "28",
+    "label": "passport-strategy.service.ts",
+    "data": "Passport strategy source code file.",
+    "directory": "src\\core\\services"
+  },
+  {
+    "key": "29",
+    "label": "refresh-token.service.ts",
+    "data": "Refresh token service source code file.",
+    "directory": "src\\core\\services"
+  },
+  {
+    "key": "30",
+    "label": "response-codes.service.ts",
+    "data": "Response code serviced source code file.",
+    "directory": "src\\core\\services"
+  },
+  {
+    "key": "31",
+    "label": "route.service.ts",
+    "data": "Route service source code file.",
+    "directory": "src\\core\\services"
+  },
+  {
+    "key": "32",
+    "label": "token-secret.service.ts",
+    "data": "Token secret service source code file.",
+    "directory": "src\\core\\services"
+  },
+  {
+    "key": "33",
+    "label": "token.service.ts",
+    "data": "Token service source code file.",
+    "directory": "src\\core\\services"
+  },
+  {
+    "key": "34",
+    "label": "user.service.ts",
+    "data": "User service source code file.",
+    "directory": "src\\core\\services"
+  },
+  {
+    "key": "35",
+    "label": "typings",
+    "data": "Folder that contains the core typings.",
+    "directory": "src\\core\\typings"
+  },
+  {
+    "key": "36",
+    "label": "passport-configuration.ts",
+    "data": "Custom passport configuration type source code file.",
+    "directory": "src\\core\\typings"
+  },
+  {
+    "key": "37",
+    "label": "permission.ts",
+    "data": "Custom permission type source code file.",
+    "directory": "src\\core\\typings"
+  },
+  {
+    "key": "38",
+    "label": "refresh-token.ts",
+    "data": "Custom refresh token type source code file.",
+    "directory": "src\\core\\typings"
+  },
+  {
+    "key": "39",
+    "label": "request-user-values.ts",
+    "data": "Custom request user values type source code file.",
+    "directory": "src\\core\\typings"
+  },
+  {
+    "key": "40",
+    "label": "role.ts",
+    "data": "Custom role type source code file.",
+    "directory": "src\\core\\typings"
+  },
+  {
+    "key": "41",
+    "label": "saml-configuration.ts",
+    "data": "Custom SAMl configuration type source code file.",
+    "directory": "src\\core\\typings"
+  },
+  {
+    "key": "42",
+    "label": "token-secrets.ts",
+    "data": "Custom token secrets type source code file.",
+    "directory": "src\\core\\typings"
+  },
+  {
+    "key": "43",
+    "label": "user.ts",
+    "data": "Custom user type source code file.",
+    "directory": "src\\core\\typings"
+  },
+  {
+    "key": "44",
+    "label": "app.ts",
+    "data": "Main module source code file.",
+    "directory": "src\\core"
+  },
+  {
+    "key": "45",
+    "label": "constants.ts",
+    "data": "File that contains the core constants.",
+    "directory": "src\\core"
+  },
+  {
+    "key": "46",
+    "label": "core.config.ts",
+    "data": "File that contains the core configuration.",
+    "directory": "src\\core"
+  },
+  {
+    "key": "47",
+    "label": "server.ts",
+    "data": "Main server source code file.",
+    "directory": "src\\core"
+  },
+  {
+    "key": "48",
+    "label": "shared",
+    "data": "Folder that contains the shared components and source code for the module. These file you are free to alter as necessary.",
+    "directory": "src\\shared"
+  },
+  {
+    "key": "49",
+    "label": "api-response.ts",
+    "data": "API response source code file.",
+    "directory": "src\\shared"
+  },
+  {
+    "key": "50",
+    "label": "app.config.ts",
+    "data": "Shared module configuration source code file. Set your module configuration here.",
+    "directory": "src\\shared"
+  },
+  {
+    "key": "51",
+    "label": "permissions.ts",
+    "data": "Shared module permissions source code file.",
+    "directory": "src\\shared"
+  },
+  {
+    "key": "52",
+    "label": "tests",
+    "data": "Folder that contains the module tests.",
+    "directory": "src\\tests"
+  },
+  {
+    "key": "53",
+    "label": ".editorconfig",
+    "data": "EditorConfig configuration file.",
+    "directory": "C:\\DevProjects\\auth-module-before-faa"
+  },
+  {
+    "key": "54",
+    "label": ".eslintrc.js",
+    "data": "ESLint configuration file.",
+    "directory": "C:\\DevProjects\\auth-module-before-faa"
+  },
+  {
+    "key": "55",
+    "label": ".gitignore",
+    "data": "File used to inform Git which module files to ignore.",
+    "directory": "C:\\DevProjects\\auth-module-before-faa"
+  },
+  {
+    "key": "56",
+    "label": ".nycrc",
+    "data": "Istanbul configuration file.",
+    "directory": "C:\\DevProjects\\auth-module-before-faa"
+  },
+  {
+    "key": "57",
+    "label": ".prettierignore",
+    "data": "File used by prettier to ignore certain artifacts.",
+    "directory": "C:\\DevProjects\\auth-module-before-faa"
+  },
+  {
+    "key": "58",
+    "label": "Jenkinsfile",
+    "data": "File that sets up Jenkins pipeline.",
+    "directory": "C:\\DevProjects\\auth-module-before-faa"
+  },
+  {
+    "key": "59",
+    "label": "nodemon.json",
+    "data": "File that configures nodemon.",
+    "directory": "C:\\DevProjects\\auth-module-before-faa"
+  },
+  {
+    "key": "60",
+    "label": "package-lock.json",
+    "data": "File generated when packages are installed.",
+    "directory": "C:\\DevProjects\\auth-module-before-faa"
+  },
+  {
+    "key": "61",
+    "label": "package.json",
+    "data": "Standard package file used to setup the module.",
+    "directory": "C:\\DevProjects\\auth-module-before-faa"
+  },
+  {
+    "key": "62",
+    "label": "README.md",
+    "data": "Read me file for the module.",
+    "directory": "C:\\DevProjects\\auth-module-before-faa"
+  },
+  {
+    "key": "63",
+    "label": "sonar-project.properties",
+    "data": "File used to setup SonarQube scan.",
+    "directory": "C:\\DevProjects\\auth-module-before-faa"
+  },
+  {
+    "key": "64",
+    "label": "tsconfig.json",
+    "data": "General TypeScript configuration file.",
+    "directory": "C:\\DevProjects\\auth-module-before-faa"
+  }
+]

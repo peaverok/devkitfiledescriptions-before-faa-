@@ -1,0 +1,830 @@
+﻿[
+  {
+    "key": "0",
+    "label": ".git",
+    "data": "Folder that contains all of the information required for version control using Git.",
+    "directory": ".git"
+  },
+  {
+    "key": "1",
+    "label": ".husky",
+    "data": "Folder that contains Husky hook files and files that assist with Husky hooks.",
+    "directory": ".husky"
+  },
+  {
+    "key": "2",
+    "label": "_",
+    "data": "Container folder for files that assist with Husky hooks.",
+    "directory": ".husky\\_"
+  },
+  {
+    "key": "3",
+    "label": "husky.sh",
+    "data": "Husky shell executable file used to run hooks in a unix (linux) environment",
+    "directory": ".husky\\_"
+  },
+  {
+    "key": "4",
+    "label": ".gitignore",
+    "data": "File used to inform Git which Husky files to ignore.",
+    "directory": ".husky"
+  },
+  {
+    "key": "5",
+    "label": "pre-commit",
+    "data": "Husky hook to automatically run lint script before commit.",
+    "directory": ".husky"
+  },
+  {
+    "key": "6",
+    "label": ".vscode",
+    "data": "Folder that contains VSCode workspace settings files.",
+    "directory": ".vscode"
+  },
+  {
+    "key": "7",
+    "label": "settings.json",
+    "data": "File that contains default VSCode IDE settings.",
+    "directory": ".vscode"
+  },
+  {
+    "key": "8",
+    "label": "local",
+    "data": "Folder that contains local certification files.",
+    "directory": "local"
+  },
+  {
+    "key": "9",
+    "label": "generateCert",
+    "data": "File demonstrating how to generate certificates.",
+    "directory": "local"
+  },
+  {
+    "key": "10",
+    "label": "server.crt",
+    "data": "Local server certificate.",
+    "directory": "local"
+  },
+  {
+    "key": "11",
+    "label": "server.key",
+    "data": "Local server key.",
+    "directory": "local"
+  },
+  {
+    "key": "12",
+    "label": "logs",
+    "data": "Folder that contains the event logs.",
+    "directory": "logs"
+  },
+  {
+    "key": "13",
+    "label": "node_modules",
+    "data": "Folder that contains all of the node modules for packages defined in package.json",
+    "directory": "node_modules"
+  },
+  {
+    "key": "14",
+    "label": "src",
+    "data": "Folder that contains the source code and assets for the module.",
+    "directory": "src"
+  },
+  {
+    "key": "15",
+    "label": "api",
+    "data": "Folder that contains the RESTful API source code for the module.",
+    "directory": "src\\api"
+  },
+  {
+    "key": "16",
+    "label": "controllers",
+    "data": "Folder that contains the RESTful API controllers for the module.",
+    "directory": "src\\api\\controllers"
+  },
+  {
+    "key": "17",
+    "label": "user",
+    "data": "Folder that contains the RESTful user API controllers for the module.",
+    "directory": "src\\api\\controllers\\user"
+  },
+  {
+    "key": "18",
+    "label": "refresh-token.controller.ts",
+    "data": "Refresh token API controller source code file.",
+    "directory": "src\\api\\controllers\\user"
+  },
+  {
+    "key": "19",
+    "label": "user.controller.ts",
+    "data": "User API controller source code file.",
+    "directory": "src\\api\\controllers\\user"
+  },
+  {
+    "key": "20",
+    "label": "airport.controller.ts",
+    "data": "Airport API controller source code file.",
+    "directory": "src\\api\\controllers"
+  },
+  {
+    "key": "21",
+    "label": "base.controller.ts",
+    "data": "Base API controller source code file.",
+    "directory": "src\\api\\controllers"
+  },
+  {
+    "key": "22",
+    "label": "services",
+    "data": "Folder that contains the RESTful API servicesfor the module.",
+    "directory": "src\\api\\services"
+  },
+  {
+    "key": "23",
+    "label": "controller-loader.service.ts",
+    "data": "Controller loader service source code file.",
+    "directory": "src\\api\\services"
+  },
+  {
+    "key": "24",
+    "label": "core",
+    "data": "Folder that contains the core components and source code for the module. These file should NOT be changed.",
+    "directory": "src\\core"
+  },
+  {
+    "key": "25",
+    "label": "models",
+    "data": "Folder that contains the core models for the module.",
+    "directory": "src\\core\\models"
+  },
+  {
+    "key": "26",
+    "label": "access-token.ts",
+    "data": "The access token model source code file.",
+    "directory": "src\\core\\models"
+  },
+  {
+    "key": "27",
+    "label": "refresh-token.ts",
+    "data": "The refresh token model source code file.",
+    "directory": "src\\core\\models"
+  },
+  {
+    "key": "28",
+    "label": "temp-token.ts",
+    "data": "The temporary token model source code file.",
+    "directory": "src\\core\\models"
+  },
+  {
+    "key": "29",
+    "label": "services",
+    "data": "Folder that contains the core services for the module.",
+    "directory": "src\\core\\services"
+  },
+  {
+    "key": "30",
+    "label": "logger.service.ts",
+    "data": "Logger service source code file.",
+    "directory": "src\\core\\services"
+  },
+  {
+    "key": "31",
+    "label": "morgan-middleware.service.ts",
+    "data": "Morgan middleware source code file.",
+    "directory": "src\\core\\services"
+  },
+  {
+    "key": "32",
+    "label": "token-secret.service.ts",
+    "data": "Token secret service source code file.",
+    "directory": "src\\core\\services"
+  },
+  {
+    "key": "33",
+    "label": "token.service.ts",
+    "data": "Token secret source code file.",
+    "directory": "src\\core\\services"
+  },
+  {
+    "key": "34",
+    "label": "app.ts",
+    "data": "Main module source code file.",
+    "directory": "src\\core"
+  },
+  {
+    "key": "35",
+    "label": "core.config.ts",
+    "data": "File that contains the core configuration.",
+    "directory": "src\\core"
+  },
+  {
+    "key": "36",
+    "label": "server.ts",
+    "data": "Main server source code file.",
+    "directory": "src\\core"
+  },
+  {
+    "key": "37",
+    "label": "sequelize",
+    "data": "Folder that contains the Sequelize source code files for the module.",
+    "directory": "src\\sequelize"
+  },
+  {
+    "key": "38",
+    "label": "models",
+    "data": "Folder that contains the Sequelize model declaration source code files for the module.",
+    "directory": "src\\sequelize\\models"
+  },
+  {
+    "key": "39",
+    "label": "user",
+    "data": "\"Folder that contains the Sequelize user model declaration source code files for the module.",
+    "directory": "src\\sequelize\\models\\user"
+  },
+  {
+    "key": "40",
+    "label": "permission.model.ts",
+    "data": "Permission Sequelize model source code file.",
+    "directory": "src\\sequelize\\models\\user"
+  },
+  {
+    "key": "41",
+    "label": "refresh-token.model.ts",
+    "data": "Refresh token Sequelize model source code file.",
+    "directory": "src\\sequelize\\models\\user"
+  },
+  {
+    "key": "42",
+    "label": "role-permission.model.ts",
+    "data": "Role permission Sequelize model source code file.",
+    "directory": "src\\sequelize\\models\\user"
+  },
+  {
+    "key": "43",
+    "label": "role.model.ts",
+    "data": "Role Sequelize model source code file.",
+    "directory": "src\\sequelize\\models\\user"
+  },
+  {
+    "key": "44",
+    "label": "user-role.model.ts",
+    "data": "User role permission Sequelize model source code file.",
+    "directory": "src\\sequelize\\models\\user"
+  },
+  {
+    "key": "45",
+    "label": "user.model.ts",
+    "data": "User Sequelize model source code file.",
+    "directory": "src\\sequelize\\models\\user"
+  },
+  {
+    "key": "46",
+    "label": "airport.model.ts",
+    "data": "Airport Sequelize model source code file.",
+    "directory": "src\\sequelize\\models"
+  },
+  {
+    "key": "47",
+    "label": "base.model.ts",
+    "data": "Base Sequelize model source code file.",
+    "directory": "src\\sequelize\\models"
+  },
+  {
+    "key": "48",
+    "label": "repositories",
+    "data": "Folder that contains the Sequelize repository declaration source code files for the module.",
+    "directory": "src\\sequelize\\repositories"
+  },
+  {
+    "key": "49",
+    "label": "user",
+    "data": "\"Folder that contains the Sequelize user repository declaration source code files for the module.",
+    "directory": "src\\sequelize\\repositories\\user"
+  },
+  {
+    "key": "50",
+    "label": "refresh-token.repository.ts",
+    "data": "Refresh token Sequelize repository source code file.",
+    "directory": "src\\sequelize\\repositories\\user"
+  },
+  {
+    "key": "51",
+    "label": "user.repository.ts",
+    "data": "User Sequelize repository source code file.",
+    "directory": "src\\sequelize\\repositories\\user"
+  },
+  {
+    "key": "52",
+    "label": "airport.repository.ts",
+    "data": "Airport Sequelize repository source code file.",
+    "directory": "src\\sequelize\\repositories"
+  },
+  {
+    "key": "53",
+    "label": "base.repository.ts",
+    "data": "Base Sequelize repository source code file.",
+    "directory": "src\\sequelize\\repositories"
+  },
+  {
+    "key": "54",
+    "label": "seed",
+    "data": "Folder that contains the Sequelize initial seed declaration source code files for the module.",
+    "directory": "src\\sequelize\\seed"
+  },
+  {
+    "key": "55",
+    "label": "development",
+    "data": "\"Folder that contains the Sequelize development environment seed declaration source code files for the module.",
+    "directory": "src\\sequelize\\seed\\development"
+  },
+  {
+    "key": "56",
+    "label": "user",
+    "data": "\"Folder that contains the Sequelize development environment user seed declaration source code files for the module.",
+    "directory": "src\\sequelize\\seed\\development\\user"
+  },
+  {
+    "key": "57",
+    "label": "permission.json",
+    "data": "Permission data seed file.",
+    "directory": "src\\sequelize\\seed\\development\\user"
+  },
+  {
+    "key": "58",
+    "label": "role-permission.json",
+    "data": "Role permission data seed file.",
+    "directory": "src\\sequelize\\seed\\development\\user"
+  },
+  {
+    "key": "59",
+    "label": "role.json",
+    "data": "Role data seed file.",
+    "directory": "src\\sequelize\\seed\\development\\user"
+  },
+  {
+    "key": "60",
+    "label": "user-role.json",
+    "data": "User role data seed file.",
+    "directory": "src\\sequelize\\seed\\development\\user"
+  },
+  {
+    "key": "61",
+    "label": "user.json",
+    "data": "User data seed file.",
+    "directory": "src\\sequelize\\seed\\development\\user"
+  },
+  {
+    "key": "62",
+    "label": "airport.json",
+    "data": "Airport data seed file.",
+    "directory": "src\\sequelize\\seed\\development"
+  },
+  {
+    "key": "63",
+    "label": "local",
+    "data": "\"Folder that contains the Sequelize local environment seed declaration source code files for the module.",
+    "directory": "src\\sequelize\\seed\\local"
+  },
+  {
+    "key": "64",
+    "label": "user",
+    "data": "\"Folder that contains the Sequelize local environment user seed declaration source code files for the module.",
+    "directory": "src\\sequelize\\seed\\local\\user"
+  },
+  {
+    "key": "65",
+    "label": "permission.json",
+    "data": "Permission data seed file.",
+    "directory": "src\\sequelize\\seed\\local\\user"
+  },
+  {
+    "key": "66",
+    "label": "role-permission.json",
+    "data": "Role permission data seed file.",
+    "directory": "src\\sequelize\\seed\\local\\user"
+  },
+  {
+    "key": "67",
+    "label": "role.json",
+    "data": "Role data seed file.",
+    "directory": "src\\sequelize\\seed\\local\\user"
+  },
+  {
+    "key": "68",
+    "label": "user-role.json",
+    "data": "User role data seed file.",
+    "directory": "src\\sequelize\\seed\\local\\user"
+  },
+  {
+    "key": "69",
+    "label": "user.json",
+    "data": "User data seed file.",
+    "directory": "src\\sequelize\\seed\\local\\user"
+  },
+  {
+    "key": "70",
+    "label": "airport.json",
+    "data": "Airport data seed file.",
+    "directory": "src\\sequelize\\seed\\local"
+  },
+  {
+    "key": "71",
+    "label": "production",
+    "data": "\"Folder that contains the Sequelize production environment seed declaration source code files for the module.",
+    "directory": "src\\sequelize\\seed\\production"
+  },
+  {
+    "key": "72",
+    "label": "user",
+    "data": "\"Folder that contains the Sequelize local production user seed declaration source code files for the module.",
+    "directory": "src\\sequelize\\seed\\production\\user"
+  },
+  {
+    "key": "73",
+    "label": "permission.json",
+    "data": "Permission data seed file.",
+    "directory": "src\\sequelize\\seed\\production\\user"
+  },
+  {
+    "key": "74",
+    "label": "role-permission.json",
+    "data": "Role permission data seed file.",
+    "directory": "src\\sequelize\\seed\\production\\user"
+  },
+  {
+    "key": "75",
+    "label": "role.json",
+    "data": "Role data seed file.",
+    "directory": "src\\sequelize\\seed\\production\\user"
+  },
+  {
+    "key": "76",
+    "label": "user-role.json",
+    "data": "User role data seed file.",
+    "directory": "src\\sequelize\\seed\\production\\user"
+  },
+  {
+    "key": "77",
+    "label": "user.json",
+    "data": "User data seed file.",
+    "directory": "src\\sequelize\\seed\\production\\user"
+  },
+  {
+    "key": "78",
+    "label": "airport.json",
+    "data": "Airport data seed file.",
+    "directory": "src\\sequelize\\seed\\production"
+  },
+  {
+    "key": "79",
+    "label": "test",
+    "data": "\"Folder that contains the Sequelize test environment seed declaration source code files for the module.",
+    "directory": "src\\sequelize\\seed\\test"
+  },
+  {
+    "key": "80",
+    "label": "user",
+    "data": "\"Folder that contains the Sequelize test environment user seed declaration source code files for the module.",
+    "directory": "src\\sequelize\\seed\\test\\user"
+  },
+  {
+    "key": "81",
+    "label": "permission.json",
+    "data": "Permission data seed file.",
+    "directory": "src\\sequelize\\seed\\test\\user"
+  },
+  {
+    "key": "82",
+    "label": "role-permission.json",
+    "data": "Role permission data seed file.",
+    "directory": "src\\sequelize\\seed\\test\\user"
+  },
+  {
+    "key": "83",
+    "label": "role.json",
+    "data": "Role data seed file.",
+    "directory": "src\\sequelize\\seed\\test\\user"
+  },
+  {
+    "key": "84",
+    "label": "user-role.json",
+    "data": "User role data seed file.",
+    "directory": "src\\sequelize\\seed\\test\\user"
+  },
+  {
+    "key": "85",
+    "label": "user.json",
+    "data": "User data seed file.",
+    "directory": "src\\sequelize\\seed\\test\\user"
+  },
+  {
+    "key": "86",
+    "label": "airport.json",
+    "data": "Airport data seed file.",
+    "directory": "src\\sequelize\\seed\\test"
+  },
+  {
+    "key": "87",
+    "label": "services",
+    "data": "\"Folder that contains the Sequelize test services source code files for the module.",
+    "directory": "src\\sequelize\\services"
+  },
+  {
+    "key": "88",
+    "label": "model-loader.service.ts",
+    "data": "Model loader service source code file.",
+    "directory": "src\\sequelize\\services"
+  },
+  {
+    "key": "89",
+    "label": "nodemoduletest.db",
+    "data": "Local SQLite database file used in local testing.",
+    "directory": "src\\sequelize\\services"
+  },
+  {
+    "key": "90",
+    "label": "sequelize-config.service.ts",
+    "data": "Sequelize configuration service source code file.",
+    "directory": "src\\sequelize\\services"
+  },
+  {
+    "key": "91",
+    "label": "shared",
+    "data": "Folder that contains the shared components and source code for the module. These file you are free to alter as necessary.",
+    "directory": "src\\shared"
+  },
+  {
+    "key": "92",
+    "label": "guards",
+    "data": "Folder that contains the shared guards for the module.",
+    "directory": "src\\shared\\guards"
+  },
+  {
+    "key": "93",
+    "label": "route.guard.ts",
+    "data": "Router guard source code file.",
+    "directory": "src\\shared\\guards"
+  },
+  {
+    "key": "94",
+    "label": "resources",
+    "data": "Folder that contains the shared resources for the module.",
+    "directory": "src\\shared\\resources"
+  },
+  {
+    "key": "95",
+    "label": "controllers",
+    "data": "Folder that contains the shared RESTful API controller resources for the module.",
+    "directory": "src\\shared\\resources\\controllers"
+  },
+  {
+    "key": "96",
+    "label": "user",
+    "data": "Folder that contains the shared RESTful API user controller resources for the module.",
+    "directory": "src\\shared\\resources\\controllers\\user"
+  },
+  {
+    "key": "97",
+    "label": "user.ts",
+    "data": "Resources for the RESTful API user controller.",
+    "directory": "src\\shared\\resources\\controllers\\user"
+  },
+  {
+    "key": "98",
+    "label": "airport.ts",
+    "data": "Resources for the RESTful API airport controller.",
+    "directory": "src\\shared\\resources\\controllers"
+  },
+  {
+    "key": "99",
+    "label": "sequelize",
+    "data": "Folder that contains the shared Sequelize resources for the module.",
+    "directory": "src\\shared\\resources\\sequelize"
+  },
+  {
+    "key": "100",
+    "label": "repositories",
+    "data": "Folder that contains the shared Sequelize repository resources for the module.",
+    "directory": "src\\shared\\resources\\sequelize\\repositories"
+  },
+  {
+    "key": "101",
+    "label": "user",
+    "data": "Folder that contains the shared Sequelize user repository resources for the module.",
+    "directory": "src\\shared\\resources\\sequelize\\repositories\\user"
+  },
+  {
+    "key": "102",
+    "label": "refresh-token.ts",
+    "data": "Resources for the refresh token repository.",
+    "directory": "src\\shared\\resources\\sequelize\\repositories\\user"
+  },
+  {
+    "key": "103",
+    "label": "user.ts",
+    "data": "Resources for the user repository.",
+    "directory": "src\\shared\\resources\\sequelize\\repositories\\user"
+  },
+  {
+    "key": "104",
+    "label": "airport.ts",
+    "data": "Resources for the airport repository.",
+    "directory": "src\\shared\\resources\\sequelize\\repositories"
+  },
+  {
+    "key": "105",
+    "label": "services",
+    "data": "Folder that contains the shared services for the module.",
+    "directory": "src\\shared\\services"
+  },
+  {
+    "key": "106",
+    "label": "response-codes.service.ts",
+    "data": "Response code serviced source code file.",
+    "directory": "src\\shared\\services"
+  },
+  {
+    "key": "107",
+    "label": "api-response.ts",
+    "data": "API response source code file.",
+    "directory": "src\\shared"
+  },
+  {
+    "key": "108",
+    "label": "app.config.ts",
+    "data": "Shared module configuration source code file. Set your module configuration here.",
+    "directory": "src\\shared"
+  },
+  {
+    "key": "109",
+    "label": "base-routes.ts",
+    "data": "Base routes source code file.",
+    "directory": "src\\shared"
+  },
+  {
+    "key": "110",
+    "label": "excluded-routes.ts",
+    "data": "Routes exluded from authentication source code file.",
+    "directory": "src\\shared"
+  },
+  {
+    "key": "111",
+    "label": "permissions.ts",
+    "data": "Shared module permissions source code file.",
+    "directory": "src\\shared"
+  },
+  {
+    "key": "112",
+    "label": "resources.ts",
+    "data": "Shared module resources source code file. This file reads the resources from the resources directory for use throughout your module.",
+    "directory": "src\\shared"
+  },
+  {
+    "key": "113",
+    "label": "route-permissions.ts",
+    "data": "Route permissions source code file.",
+    "directory": "src\\shared"
+  },
+  {
+    "key": "114",
+    "label": "tests",
+    "data": "Folder that contains the module tests.",
+    "directory": "src\\tests"
+  },
+  {
+    "key": "115",
+    "label": "typings",
+    "data": "Folder that contains the typings.",
+    "directory": "src\\typings"
+  },
+  {
+    "key": "116",
+    "label": "app-request.ts",
+    "data": "Custom express module request type source code file.",
+    "directory": "src\\typings"
+  },
+  {
+    "key": "117",
+    "label": "excluded-route.ts",
+    "data": "Custom excluded route type source code file.",
+    "directory": "src\\typings"
+  },
+  {
+    "key": "118",
+    "label": "permission.ts",
+    "data": "Custom permission type source code file.",
+    "directory": "src\\typings"
+  },
+  {
+    "key": "119",
+    "label": "request-type.ts",
+    "data": "Custom request type source code file.",
+    "directory": "src\\typings"
+  },
+  {
+    "key": "120",
+    "label": "response-code-message.ts",
+    "data": "Custom response code message type source code file.",
+    "directory": "src\\typings"
+  },
+  {
+    "key": "121",
+    "label": "role.ts",
+    "data": "Custom role type source code file.",
+    "directory": "src\\typings"
+  },
+  {
+    "key": "122",
+    "label": "sequelize-config.ts",
+    "data": "Custom Sequelize configuration type source code file.",
+    "directory": "src\\typings"
+  },
+  {
+    "key": "123",
+    "label": "sequelize-options-config.ts",
+    "data": "Custom Sequelize options configuration type source code file.",
+    "directory": "src\\typings"
+  },
+  {
+    "key": "124",
+    "label": "token-secrets.ts",
+    "data": "Custom token secrets type source code file.",
+    "directory": "src\\typings"
+  },
+  {
+    "key": "125",
+    "label": "swagger.json",
+    "data": "Swagger declaration file used to define the RESTful api for use by SwaggerUI.",
+    "directory": "src"
+  },
+  {
+    "key": "126",
+    "label": ".editorconfig",
+    "data": "EditorConfig configuration file.",
+    "directory": "C:\\DevProjects\\node-module-before-faa"
+  },
+  {
+    "key": "127",
+    "label": ".eslintrc.js",
+    "data": "ESLint configuration file.",
+    "directory": "C:\\DevProjects\\node-module-before-faa"
+  },
+  {
+    "key": "128",
+    "label": ".gitignore",
+    "data": "File used to inform Git which module files to ignore.",
+    "directory": "C:\\DevProjects\\node-module-before-faa"
+  },
+  {
+    "key": "129",
+    "label": ".nycrc",
+    "data": "Istanbul configuration file.",
+    "directory": "C:\\DevProjects\\node-module-before-faa"
+  },
+  {
+    "key": "130",
+    "label": ".prettierignore",
+    "data": "File used by prettier to ignore certain artifacts.",
+    "directory": "C:\\DevProjects\\node-module-before-faa"
+  },
+  {
+    "key": "131",
+    "label": "Jenkinsfile",
+    "data": "File that sets up Jenkins pipeline.",
+    "directory": "C:\\DevProjects\\node-module-before-faa"
+  },
+  {
+    "key": "132",
+    "label": "nodemon.json",
+    "data": "File that configures nodemon.",
+    "directory": "C:\\DevProjects\\node-module-before-faa"
+  },
+  {
+    "key": "133",
+    "label": "package-lock.json",
+    "data": "File generated when packages are installed.",
+    "directory": "C:\\DevProjects\\node-module-before-faa"
+  },
+  {
+    "key": "134",
+    "label": "package.json",
+    "data": "Standard package file used to setup the module.",
+    "directory": "C:\\DevProjects\\node-module-before-faa"
+  },
+  {
+    "key": "135",
+    "label": "README.md",
+    "data": "Read me file for the module.",
+    "directory": "C:\\DevProjects\\node-module-before-faa"
+  },
+  {
+    "key": "136",
+    "label": "sonar-project.properties",
+    "data": "File used to setup SonarQube scan.",
+    "directory": "C:\\DevProjects\\node-module-before-faa"
+  },
+  {
+    "key": "137",
+    "label": "tsconfig.json",
+    "data": "General TypeScript configuration file.",
+    "directory": "C:\\DevProjects\\node-module-before-faa"
+  }
+]

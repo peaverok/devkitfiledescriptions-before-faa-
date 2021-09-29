@@ -140,31 +140,31 @@
   {
     "key": "23",
     "label": "pa11yci",
-    "data": "",
+    "data": "Folder that contains the pa11yci configuration files (including samples).",
     "directory": "pa11yci"
   },
   {
     "key": "24",
     "label": ".pa11yci-nosystemuse.json",
-    "data": "",
+    "data": "Pa11yci file when no system use notification is configured.",
     "directory": "pa11yci"
   },
   {
     "key": "25",
     "label": ".pa11yci-systemuse.json",
-    "data": "",
+    "data": "Pa11yci file when the system use notification is configured.",
     "directory": "pa11yci"
   },
   {
     "key": "26",
     "label": ".pa11yci-testlogin.json",
-    "data": "",
+    "data": "Pa11yci file to demonstrate using the test login.",
     "directory": "pa11yci"
   },
   {
     "key": "27",
     "label": "pa11yci-results.json",
-    "data": "",
+    "data": "File that contains the pa11yci results from the latest scan.",
     "directory": "pa11yci"
   },
   {
@@ -188,7 +188,7 @@
   {
     "key": "31",
     "label": "dual-login",
-    "data": "Folder that contains the dual-login authentication components (external email and password and internal saml) for the application.",
+    "data": "Folder that contains the dual-login authentication components (external SAML and internal SAML) for the application.",
     "directory": "src\\app\\authentication\\dual-login"
   },
   {
@@ -218,31 +218,31 @@
   {
     "key": "36",
     "label": "dual-login-manual",
-    "data": "",
+    "data": "Folder that contains the dual-login-manual authentication components (external email and password and internal SAML) for the application.",
     "directory": "src\\app\\authentication\\dual-login-manual"
   },
   {
     "key": "37",
     "label": "dual-login-manual.component.html",
-    "data": "",
+    "data": "Dual-login-manual component HTML file.",
     "directory": "src\\app\\authentication\\dual-login-manual"
   },
   {
     "key": "38",
     "label": "dual-login-manual.component.scss",
-    "data": "",
+    "data": "Dual-login-manual component sass file.",
     "directory": "src\\app\\authentication\\dual-login-manual"
   },
   {
     "key": "39",
     "label": "dual-login-manual.component.spec.ts",
-    "data": "",
+    "data": "Dual-login-manual component test file.",
     "directory": "src\\app\\authentication\\dual-login-manual"
   },
   {
     "key": "40",
     "label": "dual-login-manual.component.ts",
-    "data": "",
+    "data": "Dual-login-manual component source code file.",
     "directory": "src\\app\\authentication\\dual-login-manual"
   },
   {
@@ -278,37 +278,37 @@
   {
     "key": "46",
     "label": "internal-login",
-    "data": "",
+    "data": "Folder that contains the internal-login authentication (MyAccess SAML or Microsoft Active Directory SAML) components for the application.",
     "directory": "src\\app\\authentication\\internal-login"
   },
   {
     "key": "47",
     "label": "internal-login.component.html",
-    "data": "",
+    "data": "Internal-login component HTML file.",
     "directory": "src\\app\\authentication\\internal-login"
   },
   {
     "key": "48",
     "label": "internal-login.component.scss",
-    "data": "",
+    "data": "Internal-login component sass file.",
     "directory": "src\\app\\authentication\\internal-login"
   },
   {
     "key": "49",
     "label": "internal-login.component.spec.ts",
-    "data": "",
+    "data": "Internal login component sass file.",
     "directory": "src\\app\\authentication\\internal-login"
   },
   {
     "key": "50",
     "label": "internal-login.component.ts",
-    "data": "",
+    "data": "Internal-login component source code file.",
     "directory": "src\\app\\authentication\\internal-login"
   },
   {
     "key": "51",
     "label": "test-login",
-    "data": "Folder that contains the test-login authentication components for the application.",
+    "data": "Folder that contains the test-login authentication (user name and password) components for the application.",
     "directory": "src\\app\\authentication\\test-login"
   },
   {
@@ -458,31 +458,31 @@
   {
     "key": "76",
     "label": "autologout",
-    "data": "",
+    "data": "Folder that contains the core automatic logout components for the application.",
     "directory": "src\\app\\core\\components\\autologout"
   },
   {
     "key": "77",
     "label": "app.auto-logout-content.component.html",
-    "data": "",
+    "data": "Auto-logout-content component HTML file.",
     "directory": "src\\app\\core\\components\\autologout"
   },
   {
     "key": "78",
     "label": "app.auto-logout-content.component.ts",
-    "data": "",
+    "data": "Auto-logout-content component source code file.",
     "directory": "src\\app\\core\\components\\autologout"
   },
   {
     "key": "79",
     "label": "app.auto-logout.component.html",
-    "data": "",
+    "data": "Auto-logout component HTML file.",
     "directory": "src\\app\\core\\components\\autologout"
   },
   {
     "key": "80",
     "label": "app.auto-logout.component.ts",
-    "data": "",
+    "data": "Auto-logout component source code file.",
     "directory": "src\\app\\core\\components\\autologout"
   },
   {
@@ -1160,7 +1160,7 @@
   {
     "key": "193",
     "label": "dual-login-manual.ts",
-    "data": "",
+    "data": "Resources for the app.dual-login-manual component.",
     "directory": "src\\app\\shared\\resources\\authentication"
   },
   {
@@ -1178,7 +1178,7 @@
   {
     "key": "196",
     "label": "internal-login.ts",
-    "data": "",
+    "data": "Resources for the app.internal-login component.",
     "directory": "src\\app\\shared\\resources\\authentication"
   },
   {
@@ -1274,7 +1274,7 @@
   {
     "key": "212",
     "label": "auto-logout.ts",
-    "data": "",
+    "data": "Resources for the app.auto-logout component.",
     "directory": "src\\app\\shared\\resources"
   },
   {
@@ -1760,7 +1760,7 @@
   {
     "key": "293",
     "label": "icon-autologout.png",
-    "data": "",
+    "data": "Automatic logout page image.",
     "directory": "src\\assets\\core\\layout\\images"
   },
   {
@@ -2834,19 +2834,13 @@
   {
     "key": "472",
     "label": "proxy.conf.json",
-    "data": "Proxy file for use by devkit-meta project.",
-    "directory": "C:\\DevProjects\\angular-module-before-faa"
-  },
-  {
-    "key": "473",
-    "label": "proxy.conf.prod.json",
-    "data": "",
+    "data": "Proxy file for use by when proxying to the other DevKit modules.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
     "key": "474",
     "label": "proxyssl.conf.json",
-    "data": "",
+    "data": "Proxy file for use by when proxying to the other DevKit modules over SSL.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {

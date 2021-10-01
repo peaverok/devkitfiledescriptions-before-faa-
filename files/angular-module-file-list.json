@@ -61,2844 +61,2922 @@
   },
   {
     "key": "10",
+    "label": "cypress",
+    "data": "Folder that contains the contains End-to-End testing files for Cypress.",
+    "directory": "cypress"
+  },
+  {
+    "key": "11",
+    "label": "fixtures",
+    "data": "Folder that contains the Cypress fixture files.",
+    "directory": "cypress\\fixtures"
+  },
+  {
+    "key": "12",
+    "label": "example.json",
+    "data": "Example Cypress fixture file.",
+    "directory": "cypress\\fixtures"
+  },
+  {
+    "key": "13",
+    "label": "integration",
+    "data": "Folder that contains the Cypress integration test source code files.",
+    "directory": "cypress\\integration"
+  },
+  {
+    "key": "14",
+    "label": "app.e2e-spec.ts",
+    "data": "Sample End-to-End test to test the main page using Cypress.",
+    "directory": "cypress\\integration"
+  },
+  {
+    "key": "15",
+    "label": "plugins",
+    "data": "Folder that contains the Cypress plugin files.",
+    "directory": "cypress\\plugins"
+  },
+  {
+    "key": "16",
+    "label": "index.ts",
+    "data": "Default Cypress plugin source code file.",
+    "directory": "cypress\\plugins"
+  },
+  {
+    "key": "17",
+    "label": "support",
+    "data": "Folder that contains the Cypress support files.",
+    "directory": "cypress\\support"
+  },
+  {
+    "key": "18",
+    "label": "commands.ts",
+    "data": "Example Cypress commands source code file.",
+    "directory": "cypress\\support"
+  },
+  {
+    "key": "19",
+    "label": "index.ts",
+    "data": "Example Cypress index source code file.",
+    "directory": "cypress\\support"
+  },
+  {
+    "key": "20",
+    "label": "videos",
+    "data": "Folder that contains the Cypress video files.",
+    "directory": "cypress\\videos"
+  },
+  {
+    "key": "21",
+    "label": "app.e2e-spec.ts.mp4",
+    "data": "Example Cypress sample video file.",
+    "directory": "cypress\\videos"
+  },
+  {
+    "key": "22",
+    "label": "tsconfig.json",
+    "data": "TypeScript configuration file for End-to-End testing.",
+    "directory": "cypress"
+  },
+  {
+    "key": "23",
     "label": "dist",
     "data": "Folder that contains results of the build script.",
     "directory": "dist"
   },
   {
-    "key": "11",
-    "label": "e2e",
-    "data": "Folder that contains End-to-End testing files and results.",
-    "directory": "e2e"
-  },
-  {
-    "key": "12",
-    "label": "src",
-    "data": "Folder that contains End-to-End testing source code.",
-    "directory": "e2e\\src"
-  },
-  {
-    "key": "13",
-    "label": "app.e2e-spec.ts",
-    "data": "Sample e2e test to test the main page using protractor.",
-    "directory": "e2e\\src"
-  },
-  {
-    "key": "14",
-    "label": "app.po.ts",
-    "data": "File that contains the sample page object class for use in sample protractor test (app.e2e-spec.ts)",
-    "directory": "e2e\\src"
-  },
-  {
-    "key": "15",
-    "label": "protractor.conf.js",
-    "data": "Configuration file for non-headless e2e testing using protractor.",
-    "directory": "e2e"
-  },
-  {
-    "key": "16",
-    "label": "protractor.headless-withfirefox.conf.js",
-    "data": "Configuration file for non-headless e2e testing using protractor with firefox.",
-    "directory": "e2e"
-  },
-  {
-    "key": "17",
-    "label": "protractor.headless.conf.js",
-    "data": "Configuration file for headless e2e testing using protractor.",
-    "directory": "e2e"
-  },
-  {
-    "key": "18",
-    "label": "tsconfig.json",
-    "data": "TypeScript configuration file for e2e testing.",
-    "directory": "e2e"
-  },
-  {
-    "key": "19",
+    "key": "24",
     "label": "local",
     "data": "Folder that contains local certification files.",
     "directory": "local"
   },
   {
-    "key": "20",
+    "key": "25",
     "label": "cert.pem",
     "data": "Local self-generated certificate file.",
     "directory": "local"
   },
   {
-    "key": "21",
+    "key": "26",
     "label": "generateCert",
     "data": "File demonstrating how to generate certificates.",
     "directory": "local"
   },
   {
-    "key": "22",
+    "key": "27",
     "label": "key.pem",
     "data": "Local self-generated certificate key file.",
     "directory": "local"
   },
   {
-    "key": "23",
+    "key": "28",
     "label": "node_modules",
     "data": "Folder that contains all of the node modules for packages defined in package.json",
     "directory": "node_modules"
   },
   {
-    "key": "24",
+    "key": "29",
     "label": "pa11yci",
     "data": "Folder that contains the pa11yci configuration files (including samples).",
     "directory": "pa11yci"
   },
   {
-    "key": "25",
+    "key": "30",
     "label": ".pa11yci-nosystemuse.json",
     "data": "Pa11yci file when no system use notification is configured.",
     "directory": "pa11yci"
   },
   {
-    "key": "26",
+    "key": "31",
     "label": ".pa11yci-systemuse.json",
     "data": "Pa11yci file when the system use notification is configured.",
     "directory": "pa11yci"
   },
   {
-    "key": "27",
+    "key": "32",
     "label": ".pa11yci-testlogin.json",
     "data": "Pa11yci file to demonstrate using the test login.",
     "directory": "pa11yci"
   },
   {
-    "key": "28",
+    "key": "33",
     "label": "pa11yci-results.json",
     "data": "File that contains the pa11yci results from the latest scan.",
     "directory": "pa11yci"
   },
   {
-    "key": "29",
+    "key": "34",
     "label": "src",
     "data": "Folder that contains the source code and assets for the application.",
     "directory": "src"
   },
   {
-    "key": "30",
+    "key": "35",
     "label": "app",
     "data": "Folder that contains the source code for the application.",
     "directory": "src\\app"
   },
   {
-    "key": "31",
+    "key": "36",
     "label": "authentication",
     "data": "Folder that contains the authentication components and source code for the application.",
     "directory": "src\\app\\authentication"
   },
   {
-    "key": "32",
+    "key": "37",
     "label": "dual-login",
     "data": "Folder that contains the dual-login authentication components (external SAML and internal SAML) for the application.",
     "directory": "src\\app\\authentication\\dual-login"
   },
   {
-    "key": "33",
+    "key": "38",
     "label": "dual-login.component.html",
     "data": "Dual-login component HTML file.",
     "directory": "src\\app\\authentication\\dual-login"
   },
   {
-    "key": "34",
+    "key": "39",
     "label": "dual-login.component.scss",
     "data": "Dual-login component sass file.",
     "directory": "src\\app\\authentication\\dual-login"
   },
   {
-    "key": "35",
+    "key": "40",
     "label": "dual-login.component.spec.ts",
     "data": "Dual-login component test file.",
     "directory": "src\\app\\authentication\\dual-login"
   },
   {
-    "key": "36",
+    "key": "41",
     "label": "dual-login.component.ts",
     "data": "Dual-login component source code file.",
     "directory": "src\\app\\authentication\\dual-login"
   },
   {
-    "key": "37",
+    "key": "42",
     "label": "dual-login-manual",
     "data": "Folder that contains the dual-login-manual authentication components (external email and password and internal SAML) for the application.",
     "directory": "src\\app\\authentication\\dual-login-manual"
   },
   {
-    "key": "38",
+    "key": "43",
     "label": "dual-login-manual.component.html",
     "data": "Dual-login-manual component HTML file.",
     "directory": "src\\app\\authentication\\dual-login-manual"
   },
   {
-    "key": "39",
+    "key": "44",
     "label": "dual-login-manual.component.scss",
     "data": "Dual-login-manual component sass file.",
     "directory": "src\\app\\authentication\\dual-login-manual"
   },
   {
-    "key": "40",
+    "key": "45",
     "label": "dual-login-manual.component.spec.ts",
     "data": "Dual-login-manual component test file.",
     "directory": "src\\app\\authentication\\dual-login-manual"
   },
   {
-    "key": "41",
+    "key": "46",
     "label": "dual-login-manual.component.ts",
     "data": "Dual-login-manual component source code file.",
     "directory": "src\\app\\authentication\\dual-login-manual"
   },
   {
-    "key": "42",
+    "key": "47",
     "label": "external-login",
     "data": "Folder that contains the external-login authentication components for the application.",
     "directory": "src\\app\\authentication\\external-login"
   },
   {
-    "key": "43",
+    "key": "48",
     "label": "external-login.component.html",
     "data": "External-login component HTML file.",
     "directory": "src\\app\\authentication\\external-login"
   },
   {
-    "key": "44",
+    "key": "49",
     "label": "external-login.component.scss",
     "data": "External-login component sass file.",
     "directory": "src\\app\\authentication\\external-login"
   },
   {
-    "key": "45",
+    "key": "50",
     "label": "external-login.component.spec.ts",
     "data": "External-login component test file.",
     "directory": "src\\app\\authentication\\external-login"
   },
   {
-    "key": "46",
+    "key": "51",
     "label": "external-login.component.ts",
     "data": "External-login component source code file.",
     "directory": "src\\app\\authentication\\external-login"
   },
   {
-    "key": "47",
+    "key": "52",
     "label": "internal-login",
     "data": "Folder that contains the internal-login authentication (MyAccess SAML or Microsoft Active Directory SAML) components for the application.",
     "directory": "src\\app\\authentication\\internal-login"
   },
   {
-    "key": "48",
+    "key": "53",
     "label": "internal-login.component.html",
     "data": "Internal-login component HTML file.",
     "directory": "src\\app\\authentication\\internal-login"
   },
   {
-    "key": "49",
+    "key": "54",
     "label": "internal-login.component.scss",
     "data": "Internal-login component sass file.",
     "directory": "src\\app\\authentication\\internal-login"
   },
   {
-    "key": "50",
+    "key": "55",
     "label": "internal-login.component.spec.ts",
     "data": "Internal login component sass file.",
     "directory": "src\\app\\authentication\\internal-login"
   },
   {
-    "key": "51",
+    "key": "56",
     "label": "internal-login.component.ts",
     "data": "Internal-login component source code file.",
     "directory": "src\\app\\authentication\\internal-login"
   },
   {
-    "key": "52",
+    "key": "57",
     "label": "test-login",
     "data": "Folder that contains the test-login authentication (user name and password) components for the application.",
     "directory": "src\\app\\authentication\\test-login"
   },
   {
-    "key": "53",
+    "key": "58",
     "label": "test-login.component.html",
     "data": "Test-login component HTML file.",
     "directory": "src\\app\\authentication\\test-login"
   },
   {
-    "key": "54",
+    "key": "59",
     "label": "test-login.component.scss",
     "data": "Test-login component sass file.",
     "directory": "src\\app\\authentication\\test-login"
   },
   {
-    "key": "55",
+    "key": "60",
     "label": "test-login.component.spec.ts",
     "data": "Test-login component test file.",
     "directory": "src\\app\\authentication\\test-login"
   },
   {
-    "key": "56",
+    "key": "61",
     "label": "test-login.component.ts",
     "data": "Test-login component source code file.",
     "directory": "src\\app\\authentication\\test-login"
   },
   {
-    "key": "57",
+    "key": "62",
     "label": "authentication-routing.module.ts",
     "data": "Authentication router module source code file.",
     "directory": "src\\app\\authentication"
   },
   {
-    "key": "58",
+    "key": "63",
     "label": "authentication.module.ts",
     "data": "Authentication module source code file.",
     "directory": "src\\app\\authentication"
   },
   {
-    "key": "59",
+    "key": "64",
     "label": "base.authentication.component.ts",
     "data": "Base authentiation component souce code file.",
     "directory": "src\\app\\authentication"
   },
   {
-    "key": "60",
+    "key": "65",
     "label": "core",
     "data": "Folder that contains the core components and source code for the application. These file should NOT be changed.",
     "directory": "src\\app\\core"
   },
   {
-    "key": "61",
+    "key": "66",
     "label": "components",
     "data": "Folder that contains the core components for the application.",
     "directory": "src\\app\\core\\components"
   },
   {
-    "key": "62",
+    "key": "67",
     "label": "accessdenied",
     "data": "Folder that contains the core access denied components for the application.",
     "directory": "src\\app\\core\\components\\accessdenied"
   },
   {
-    "key": "63",
+    "key": "68",
     "label": "app.access-denied-content.component.html",
     "data": "Access-denied-content component HTML file.",
     "directory": "src\\app\\core\\components\\accessdenied"
   },
   {
-    "key": "64",
+    "key": "69",
     "label": "app.access-denied-content.component.ts",
     "data": "Access-denied-content component source code file.",
     "directory": "src\\app\\core\\components\\accessdenied"
   },
   {
-    "key": "65",
+    "key": "70",
     "label": "app.access-denied.component.html",
     "data": "Access-denied component HTML file.",
     "directory": "src\\app\\core\\components\\accessdenied"
   },
   {
-    "key": "66",
+    "key": "71",
+    "label": "app.access-denied.component.scss",
+    "data": "Access-denied component sass file.",
+    "directory": "src\\app\\core\\components\\accessdenied"
+  },
+  {
+    "key": "72",
     "label": "app.access-denied.component.ts",
     "data": "Access-denied component source code file.",
     "directory": "src\\app\\core\\components\\accessdenied"
   },
   {
-    "key": "67",
+    "key": "73",
     "label": "accountinactive",
     "data": "Folder that contains the core account inactive components for the application.",
     "directory": "src\\app\\core\\components\\accountinactive"
   },
   {
-    "key": "68",
+    "key": "74",
     "label": "app.account-inactive-content.component.html",
     "data": "Account-inactive-content component HTML file.",
     "directory": "src\\app\\core\\components\\accountinactive"
   },
   {
-    "key": "69",
+    "key": "75",
     "label": "app.account-inactive-content.component.ts",
     "data": "Account-inactive-content component source code file.",
     "directory": "src\\app\\core\\components\\accountinactive"
   },
   {
-    "key": "70",
+    "key": "76",
     "label": "app.account-inactive.component.html",
     "data": "Account-inactive component HTML file.",
     "directory": "src\\app\\core\\components\\accountinactive"
   },
   {
-    "key": "71",
+    "key": "77",
+    "label": "app.account-inactive.component.scss",
+    "data": "Account-inactive component sass file.",
+    "directory": "src\\app\\core\\components\\accountinactive"
+  },
+  {
+    "key": "78",
     "label": "app.account-inactive.component.ts",
     "data": "Account-inactive component source code file.",
     "directory": "src\\app\\core\\components\\accountinactive"
   },
   {
-    "key": "72",
+    "key": "79",
     "label": "accountlocked",
     "data": "Folder that contains the core account locked components for the application.",
     "directory": "src\\app\\core\\components\\accountlocked"
   },
   {
-    "key": "73",
+    "key": "80",
     "label": "app.account-locked-content.component.html",
     "data": "Account-locked-content component HTML file.",
     "directory": "src\\app\\core\\components\\accountlocked"
   },
   {
-    "key": "74",
+    "key": "81",
     "label": "app.account-locked-content.component.ts",
     "data": "Account-inactive component HTML file.",
     "directory": "src\\app\\core\\components\\accountlocked"
   },
   {
-    "key": "75",
+    "key": "82",
     "label": "app.account-locked.component.html",
     "data": "Account-locked-content component source code file.",
     "directory": "src\\app\\core\\components\\accountlocked"
   },
   {
-    "key": "76",
+    "key": "83",
+    "label": "app.account-locked.component.scss",
+    "data": "Account-locked component sass file.",
+    "directory": "src\\app\\core\\components\\accountlocked"
+  },
+  {
+    "key": "84",
     "label": "app.account-locked.component.ts",
     "data": "Account-locked component source code file.",
     "directory": "src\\app\\core\\components\\accountlocked"
   },
   {
-    "key": "77",
+    "key": "85",
     "label": "autologout",
     "data": "Folder that contains the core automatic logout components for the application.",
     "directory": "src\\app\\core\\components\\autologout"
   },
   {
-    "key": "78",
+    "key": "86",
     "label": "app.auto-logout-content.component.html",
     "data": "Auto-logout-content component HTML file.",
     "directory": "src\\app\\core\\components\\autologout"
   },
   {
-    "key": "79",
+    "key": "87",
     "label": "app.auto-logout-content.component.ts",
     "data": "Auto-logout-content component source code file.",
     "directory": "src\\app\\core\\components\\autologout"
   },
   {
-    "key": "80",
+    "key": "88",
     "label": "app.auto-logout.component.html",
     "data": "Auto-logout component HTML file.",
     "directory": "src\\app\\core\\components\\autologout"
   },
   {
-    "key": "81",
+    "key": "89",
+    "label": "app.auto-logout.component.scss",
+    "data": "Auto-logout component sass file.",
+    "directory": "src\\app\\core\\components\\autologout"
+  },
+  {
+    "key": "90",
     "label": "app.auto-logout.component.ts",
     "data": "Auto-logout component source code file.",
     "directory": "src\\app\\core\\components\\autologout"
   },
   {
-    "key": "82",
+    "key": "91",
     "label": "breadcrumb",
     "data": "Folder that contains the core breadcrumb components for the application.",
     "directory": "src\\app\\core\\components\\breadcrumb"
   },
   {
-    "key": "83",
+    "key": "92",
     "label": "app.breadcrumb.component.html",
     "data": "Breadcrumb component HTML file.",
     "directory": "src\\app\\core\\components\\breadcrumb"
   },
   {
-    "key": "84",
+    "key": "93",
     "label": "app.breadcrumb.component.ts",
     "data": "Breadcrumb component source code file.",
     "directory": "src\\app\\core\\components\\breadcrumb"
   },
   {
-    "key": "85",
+    "key": "94",
     "label": "code",
     "data": "Folder that contains the core code (Prism.js) components for the application.",
     "directory": "src\\app\\core\\components\\code"
   },
   {
-    "key": "86",
+    "key": "95",
     "label": "app.code.component.html",
     "data": "Code (Prism.js) component HTML file.",
     "directory": "src\\app\\core\\components\\code"
   },
   {
-    "key": "87",
+    "key": "96",
     "label": "app.code.component.scss",
     "data": "Code (Prism.js) component sass file.",
     "directory": "src\\app\\core\\components\\code"
   },
   {
-    "key": "88",
+    "key": "97",
     "label": "app.code.component.ts",
     "data": "Code (Prism.js) component source code file.",
     "directory": "src\\app\\core\\components\\code"
   },
   {
-    "key": "89",
+    "key": "98",
     "label": "app.code.module.ts",
     "data": "Code (Prism.js) application module source code file.",
     "directory": "src\\app\\core\\components\\code"
   },
   {
-    "key": "90",
+    "key": "99",
     "label": "error",
     "data": "Folder that contains the core error components for the application.",
     "directory": "src\\app\\core\\components\\error"
   },
   {
-    "key": "91",
+    "key": "100",
     "label": "app.error-content.component.html",
     "data": "Error-content component HTML file.",
     "directory": "src\\app\\core\\components\\error"
   },
   {
-    "key": "92",
+    "key": "101",
     "label": "app.error-content.component.ts",
     "data": "Error-content component source code file.",
     "directory": "src\\app\\core\\components\\error"
   },
   {
-    "key": "93",
+    "key": "102",
     "label": "app.error.component.html",
     "data": "Error component HTML file.",
     "directory": "src\\app\\core\\components\\error"
   },
   {
-    "key": "94",
+    "key": "103",
+    "label": "app.error.component.scss",
+    "data": "Error component sass file.",
+    "directory": "src\\app\\core\\components\\error"
+  },
+  {
+    "key": "104",
     "label": "app.error.component.ts",
     "data": "Error component source code file.",
     "directory": "src\\app\\core\\components\\error"
   },
   {
-    "key": "95",
+    "key": "105",
     "label": "error-dialog",
     "data": "Folder that contains the core error-dialog components for the application.",
     "directory": "src\\app\\core\\components\\error-dialog"
   },
   {
-    "key": "96",
+    "key": "106",
     "label": "app.error-dialog.component.html",
     "data": "Error-dialog component HTML file.",
     "directory": "src\\app\\core\\components\\error-dialog"
   },
   {
-    "key": "97",
+    "key": "107",
     "label": "app.error-dialog.component.scss",
     "data": "Error-dialog component sass file.",
     "directory": "src\\app\\core\\components\\error-dialog"
   },
   {
-    "key": "98",
+    "key": "108",
     "label": "app.error-dialog.component.ts",
     "data": "Error-dialog component source code file.",
     "directory": "src\\app\\core\\components\\error-dialog"
   },
   {
-    "key": "99",
+    "key": "109",
     "label": "footer",
     "data": "Folder that contains the core footer components for the application.",
     "directory": "src\\app\\core\\components\\footer"
   },
   {
-    "key": "100",
+    "key": "110",
     "label": "app.footer.component.html",
     "data": "Footer component HTML file.",
     "directory": "src\\app\\core\\components\\footer"
   },
   {
-    "key": "101",
+    "key": "111",
     "label": "app.footer.component.ts",
     "data": "Footer component source code file.",
     "directory": "src\\app\\core\\components\\footer"
   },
   {
-    "key": "102",
+    "key": "112",
     "label": "menu",
     "data": "Folder that contains the core menu components for the application.",
     "directory": "src\\app\\core\\components\\menu"
   },
   {
-    "key": "103",
+    "key": "113",
     "label": "app.menu-item.component.html",
     "data": "Menu item component HTML file.",
     "directory": "src\\app\\core\\components\\menu"
   },
   {
-    "key": "104",
+    "key": "114",
     "label": "app.menu-item.component.ts",
     "data": "Menu item component source code file.",
     "directory": "src\\app\\core\\components\\menu"
   },
   {
-    "key": "105",
+    "key": "115",
     "label": "app.menu.component.html",
     "data": "Menu component HTML file.",
     "directory": "src\\app\\core\\components\\menu"
   },
   {
-    "key": "106",
+    "key": "116",
     "label": "app.menu.component.ts",
     "data": "Menu component source code file.",
     "directory": "src\\app\\core\\components\\menu"
   },
   {
-    "key": "107",
+    "key": "117",
     "label": "notfound",
     "data": "Folder that contains the core not found components for the application.",
     "directory": "src\\app\\core\\components\\notfound"
   },
   {
-    "key": "108",
+    "key": "118",
     "label": "app.not-found-content.component.html",
     "data": "Not-found-content component HTML file.",
     "directory": "src\\app\\core\\components\\notfound"
   },
   {
-    "key": "109",
+    "key": "119",
     "label": "app.not-found-content.component.ts",
     "data": "Not-found-content component source code file.",
     "directory": "src\\app\\core\\components\\notfound"
   },
   {
-    "key": "110",
+    "key": "120",
     "label": "app.not-found.component.html",
     "data": "Not-found component HTML file.",
     "directory": "src\\app\\core\\components\\notfound"
   },
   {
-    "key": "111",
+    "key": "121",
+    "label": "app.not-found.component.scss",
+    "data": "Not-found component sass file.",
+    "directory": "src\\app\\core\\components\\notfound"
+  },
+  {
+    "key": "122",
     "label": "app.not-found.component.ts",
     "data": "Not-found component source code file.",
     "directory": "src\\app\\core\\components\\notfound"
   },
   {
-    "key": "112",
+    "key": "123",
     "label": "sidemenu",
     "data": "Folder that contains the core side menu components for the application.",
     "directory": "src\\app\\core\\components\\sidemenu"
   },
   {
-    "key": "113",
+    "key": "124",
     "label": "app.side-menu-item.component.html",
     "data": "Side menu item component HTML file.",
     "directory": "src\\app\\core\\components\\sidemenu"
   },
   {
-    "key": "114",
+    "key": "125",
     "label": "app.side-menu-item.component.ts",
     "data": "Side menu item component source code file.",
     "directory": "src\\app\\core\\components\\sidemenu"
   },
   {
-    "key": "115",
+    "key": "126",
     "label": "app.side-menu.component.html",
     "data": "Side menu component HTML file.",
     "directory": "src\\app\\core\\components\\sidemenu"
   },
   {
-    "key": "116",
+    "key": "127",
     "label": "app.side-menu.component.ts",
     "data": "Side menu component source code file.",
     "directory": "src\\app\\core\\components\\sidemenu"
   },
   {
-    "key": "117",
+    "key": "128",
     "label": "systemusenotification",
     "data": "Folder that contains the core system use notification components for the application.",
     "directory": "src\\app\\core\\components\\systemusenotification"
   },
   {
-    "key": "118",
+    "key": "129",
     "label": "app.system-use-notification.component.html",
     "data": "System use notification component HTML file.",
     "directory": "src\\app\\core\\components\\systemusenotification"
   },
   {
-    "key": "119",
+    "key": "130",
     "label": "app.system-use-notification.component.scss",
     "data": "System use notification component sass file.",
     "directory": "src\\app\\core\\components\\systemusenotification"
   },
   {
-    "key": "120",
+    "key": "131",
     "label": "app.system-use-notification.component.ts",
     "data": "System use notification component source code file.",
     "directory": "src\\app\\core\\components\\systemusenotification"
   },
   {
-    "key": "121",
+    "key": "132",
     "label": "timeout-dialog",
     "data": "Folder that contains the core timeout dialog components for the application.",
     "directory": "src\\app\\core\\components\\timeout-dialog"
   },
   {
-    "key": "122",
+    "key": "133",
     "label": "app.timeout-dialog.component.html",
     "data": "Timeout-dialog component HTML file.",
     "directory": "src\\app\\core\\components\\timeout-dialog"
   },
   {
-    "key": "123",
+    "key": "134",
     "label": "app.timeout-dialog.component.scss",
     "data": "Timeout-dialog component sass file.",
     "directory": "src\\app\\core\\components\\timeout-dialog"
   },
   {
-    "key": "124",
+    "key": "135",
     "label": "app.timeout-dialog.component.ts",
     "data": "Timeout-dialog component source code file.",
     "directory": "src\\app\\core\\components\\timeout-dialog"
   },
   {
-    "key": "125",
+    "key": "136",
     "label": "topbar",
     "data": "Folder that contains the core topbar components for the application.",
     "directory": "src\\app\\core\\components\\topbar"
   },
   {
-    "key": "126",
+    "key": "137",
     "label": "app.topbar.component.html",
     "data": "Topbar component HTML file.",
     "directory": "src\\app\\core\\components\\topbar"
   },
   {
-    "key": "127",
+    "key": "138",
     "label": "app.topbar.component.ts",
     "data": "Topbar component source code file.",
     "directory": "src\\app\\core\\components\\topbar"
   },
   {
-    "key": "128",
+    "key": "139",
     "label": "app.user-callout.component.html",
     "data": "User-callout component HTML file.",
     "directory": "src\\app\\core\\components\\topbar"
   },
   {
-    "key": "129",
+    "key": "140",
     "label": "app.user-callout.component.ts",
     "data": "User-callout component source code file.",
     "directory": "src\\app\\core\\components\\topbar"
   },
   {
-    "key": "130",
+    "key": "141",
     "label": "base.menu-item.component.ts",
     "data": "Base menu item component source code file.",
     "directory": "src\\app\\core\\components"
   },
   {
-    "key": "131",
+    "key": "142",
     "label": "guards",
     "data": "Folder that contains the core router guards for the application.",
     "directory": "src\\app\\core\\guards"
   },
   {
-    "key": "132",
+    "key": "143",
     "label": "app.auth.guard.ts",
     "data": "Authentication router guard source code file.",
     "directory": "src\\app\\core\\guards"
   },
   {
-    "key": "133",
+    "key": "144",
     "label": "app.system-use.guard.ts",
     "data": "System use notification router guard source code file.",
     "directory": "src\\app\\core\\guards"
   },
   {
-    "key": "134",
+    "key": "145",
     "label": "resources",
     "data": "Folder that contains the core resources for the application.",
     "directory": "src\\app\\core\\resources"
   },
   {
-    "key": "135",
+    "key": "146",
     "label": "global.ts",
     "data": "Global core resources file.",
     "directory": "src\\app\\core\\resources"
   },
   {
-    "key": "136",
+    "key": "147",
     "label": "services",
     "data": "Folder that contains the core services for the application.",
     "directory": "src\\app\\core\\services"
   },
   {
-    "key": "137",
+    "key": "148",
     "label": "app.breadcrumb.service.ts",
     "data": "Breadcrumb service source code file.",
     "directory": "src\\app\\core\\services"
   },
   {
-    "key": "138",
+    "key": "149",
     "label": "app.error-dialog.service.ts",
     "data": "Error-dialog service source code file.",
     "directory": "src\\app\\core\\services"
   },
   {
-    "key": "139",
+    "key": "150",
     "label": "app.menu.service.ts",
     "data": "Menu service source code file.",
     "directory": "src\\app\\core\\services"
   },
   {
-    "key": "140",
+    "key": "151",
     "label": "app.search.service.ts",
     "data": "Search service source code file.",
     "directory": "src\\app\\core\\services"
   },
   {
-    "key": "141",
+    "key": "152",
     "label": "app.side-menu.service.ts",
     "data": "Side menu service source code file.",
     "directory": "src\\app\\core\\services"
   },
   {
-    "key": "142",
+    "key": "153",
     "label": "app.timeout-dialog.service.ts",
     "data": "Timeout-dialog service source code file.",
     "directory": "src\\app\\core\\services"
   },
   {
-    "key": "143",
+    "key": "154",
     "label": "app.timeout.service.ts",
     "data": "Timeout service source code file.",
     "directory": "src\\app\\core\\services"
   },
   {
-    "key": "144",
+    "key": "155",
     "label": "typings",
     "data": "Folder that contains the core typings.",
     "directory": "src\\app\\core\\typings"
   },
   {
-    "key": "145",
+    "key": "156",
     "label": "custom-window.ts",
     "data": "Custom window typing for Prism.",
     "directory": "src\\app\\core\\typings"
   },
   {
-    "key": "146",
+    "key": "157",
     "label": "menu-types.ts",
     "data": "Custom menu type source code file.",
     "directory": "src\\app\\core\\typings"
   },
   {
-    "key": "147",
+    "key": "158",
     "label": "permission.ts",
     "data": "Custom permission type source code file.",
     "directory": "src\\app\\core\\typings"
   },
   {
-    "key": "148",
+    "key": "159",
     "label": "role.ts",
     "data": "Custom role type source code file.",
     "directory": "src\\app\\core\\typings"
   },
   {
-    "key": "149",
+    "key": "160",
     "label": "search-suggestion.ts",
     "data": "Custom search suggestion type source code file.",
     "directory": "src\\app\\core\\typings"
   },
   {
-    "key": "150",
+    "key": "161",
     "label": "side-menu-types.ts",
     "data": "Custom side menu type source code file.",
     "directory": "src\\app\\core\\typings"
   },
   {
-    "key": "151",
+    "key": "162",
     "label": "app.global-error-handler.ts",
     "data": "Global-error-handler service source code file.",
     "directory": "src\\app\\core"
   },
   {
-    "key": "152",
+    "key": "163",
     "label": "constants.ts",
     "data": "File that contains the core constants.",
     "directory": "src\\app\\core"
   },
   {
-    "key": "153",
+    "key": "164",
     "label": "core.module.ts",
     "data": "Core application module source code file.",
     "directory": "src\\app\\core"
   },
   {
-    "key": "154",
+    "key": "165",
     "label": "features",
     "data": "Folder that contains the feature components and source code for the application. Put your pages/routes in this folder.",
     "directory": "src\\app\\features"
   },
   {
-    "key": "155",
+    "key": "166",
     "label": "home",
     "data": "Folder that contains the home feature components for the application.",
     "directory": "src\\app\\features\\home"
   },
   {
-    "key": "156",
+    "key": "167",
     "label": "home.component.html",
     "data": "Home component HTML file.",
     "directory": "src\\app\\features\\home"
   },
   {
-    "key": "157",
+    "key": "168",
     "label": "home.component.spec.ts",
     "data": "Home component test file.",
     "directory": "src\\app\\features\\home"
   },
   {
-    "key": "158",
+    "key": "169",
     "label": "home.component.ts",
     "data": "Home component source code file.",
     "directory": "src\\app\\features\\home"
   },
   {
-    "key": "159",
+    "key": "170",
     "label": "test-api",
     "data": "Folder that contains the API test feature components for the application.",
     "directory": "src\\app\\features\\test-api"
   },
   {
-    "key": "160",
+    "key": "171",
     "label": "models",
     "data": "Folder that contains the API test models for the application.",
     "directory": "src\\app\\features\\test-api\\models"
   },
   {
-    "key": "161",
+    "key": "172",
     "label": "airport.ts",
     "data": "Airport model source code file for API test.",
     "directory": "src\\app\\features\\test-api\\models"
   },
   {
-    "key": "162",
+    "key": "173",
     "label": "table-column.ts",
     "data": "Table column model source code file for API test.",
     "directory": "src\\app\\features\\test-api\\models"
   },
   {
-    "key": "163",
+    "key": "174",
     "label": "services",
     "data": "Folder that contains the API test services for the application.",
     "directory": "src\\app\\features\\test-api\\services"
   },
   {
-    "key": "164",
+    "key": "175",
     "label": "airport.service.ts",
     "data": "Airport service source code file for API test.",
     "directory": "src\\app\\features\\test-api\\services"
   },
   {
-    "key": "165",
+    "key": "176",
     "label": "test-api.component.html",
     "data": "Test-api component HTML file.",
     "directory": "src\\app\\features\\test-api"
   },
   {
-    "key": "166",
+    "key": "177",
     "label": "test-api.component.scss",
     "data": "Test-api component sass file.",
     "directory": "src\\app\\features\\test-api"
   },
   {
-    "key": "167",
+    "key": "178",
     "label": "test-api.component.ts",
     "data": "Test-api component source code file.",
     "directory": "src\\app\\features\\test-api"
   },
   {
-    "key": "168",
+    "key": "179",
     "label": "test-authentication",
     "data": "Folder that contains the authentication guard test feature components for the application.",
     "directory": "src\\app\\features\\test-authentication"
   },
   {
-    "key": "169",
+    "key": "180",
     "label": "test-authentication.component.html",
     "data": "Test-authentication component HTML file.",
     "directory": "src\\app\\features\\test-authentication"
   },
   {
-    "key": "170",
+    "key": "181",
     "label": "test-authentication.component.spec.ts",
     "data": "Test-authentication component test file.",
     "directory": "src\\app\\features\\test-authentication"
   },
   {
-    "key": "171",
+    "key": "182",
     "label": "test-authentication.component.ts",
     "data": "Test-authentication component source code file.",
     "directory": "src\\app\\features\\test-authentication"
   },
   {
-    "key": "172",
+    "key": "183",
     "label": "test-authorization",
     "data": "Folder that contains the authorization test feature components for the application.",
     "directory": "src\\app\\features\\test-authorization"
   },
   {
-    "key": "173",
+    "key": "184",
     "label": "test-authorization.component.html",
     "data": "Test-authorization component HTML file.",
     "directory": "src\\app\\features\\test-authorization"
   },
   {
-    "key": "174",
+    "key": "185",
     "label": "test-authorization.component.spec.ts",
     "data": "Test-authorization component test file.",
     "directory": "src\\app\\features\\test-authorization"
   },
   {
-    "key": "175",
+    "key": "186",
     "label": "test-authorization.component.ts",
     "data": "Test-authorization component source code file.",
     "directory": "src\\app\\features\\test-authorization"
   },
   {
-    "key": "176",
+    "key": "187",
     "label": "features-routing.module.ts",
     "data": "Features router module source code file.",
     "directory": "src\\app\\features"
   },
   {
-    "key": "177",
+    "key": "188",
     "label": "features.module.ts",
     "data": "Features application module source code file.",
     "directory": "src\\app\\features"
   },
   {
-    "key": "178",
+    "key": "189",
     "label": "shared",
     "data": "Folder that contains the shared components and source code for the application. These file you are free to alter as necessary.",
     "directory": "src\\app\\shared"
   },
   {
-    "key": "179",
+    "key": "190",
     "label": "components",
     "data": "Folder that contains the shared components for the application.",
     "directory": "src\\app\\shared\\components"
   },
   {
-    "key": "180",
+    "key": "191",
     "label": "footer",
     "data": "Folder that contains the shared footer components for the application.",
     "directory": "src\\app\\shared\\components\\footer"
   },
   {
-    "key": "181",
+    "key": "192",
     "label": "app.footer-content.component.html",
     "data": "Footer-content component HTML file.",
     "directory": "src\\app\\shared\\components\\footer"
   },
   {
-    "key": "182",
+    "key": "193",
     "label": "app.footer-content.component.ts",
     "data": "Footer-content component source code file.",
     "directory": "src\\app\\shared\\components\\footer"
   },
   {
-    "key": "183",
+    "key": "194",
     "label": "topbar",
     "data": "Folder that contains the shared topbar components for the application.",
     "directory": "src\\app\\shared\\components\\topbar"
   },
   {
-    "key": "184",
+    "key": "195",
     "label": "app.help-callout-content.component.html",
     "data": "Help-callout-content component HTML file.",
     "directory": "src\\app\\shared\\components\\topbar"
   },
   {
-    "key": "185",
+    "key": "196",
     "label": "app.help-callout-content.component.ts",
     "data": "Help-callout-content component source code file.",
     "directory": "src\\app\\shared\\components\\topbar"
   },
   {
-    "key": "186",
+    "key": "197",
     "label": "app.user-callout-content.component.html",
     "data": "User-callout-content component HTML file.",
     "directory": "src\\app\\shared\\components\\topbar"
   },
   {
-    "key": "187",
+    "key": "198",
     "label": "app.user-callout-content.component.ts",
     "data": "User-callout-content component source code file.",
     "directory": "src\\app\\shared\\components\\topbar"
   },
   {
-    "key": "188",
+    "key": "199",
     "label": "base.component.ts",
     "data": "Base component source code file.",
     "directory": "src\\app\\shared\\components"
   },
   {
-    "key": "189",
+    "key": "200",
     "label": "basepage.component.ts",
     "data": "Base page component source code file.",
     "directory": "src\\app\\shared\\components"
   },
   {
-    "key": "190",
+    "key": "201",
     "label": "interceptors",
     "data": "Folder that contains the shared HTTP Interceptors source code files.",
     "directory": "src\\app\\shared\\interceptors"
   },
   {
-    "key": "191",
+    "key": "202",
     "label": "app.http.interceptor.ts",
     "data": "Shared HTTP interceptor source code file.",
     "directory": "src\\app\\shared\\interceptors"
   },
   {
-    "key": "192",
+    "key": "203",
     "label": "resources",
     "data": "Folder that contains application resources.",
     "directory": "src\\app\\shared\\resources"
   },
   {
-    "key": "193",
+    "key": "204",
     "label": "authentication",
     "data": "Folder that contains authentication resources.",
     "directory": "src\\app\\shared\\resources\\authentication"
   },
   {
-    "key": "194",
+    "key": "205",
     "label": "dual-login-manual.ts",
     "data": "Resources for the app.dual-login-manual component.",
     "directory": "src\\app\\shared\\resources\\authentication"
   },
   {
-    "key": "195",
+    "key": "206",
     "label": "dual-login.ts",
     "data": "Resources for the app.dual-login component.",
     "directory": "src\\app\\shared\\resources\\authentication"
   },
   {
-    "key": "196",
+    "key": "207",
     "label": "external-login.ts",
     "data": "Resources for the app.external-login component.",
     "directory": "src\\app\\shared\\resources\\authentication"
   },
   {
-    "key": "197",
+    "key": "208",
     "label": "internal-login.ts",
     "data": "Resources for the app.internal-login component.",
     "directory": "src\\app\\shared\\resources\\authentication"
   },
   {
-    "key": "198",
+    "key": "209",
     "label": "test-login.ts",
     "data": "Resources for the app.test-login component.",
     "directory": "src\\app\\shared\\resources\\authentication"
   },
   {
-    "key": "199",
+    "key": "210",
     "label": "features",
     "data": "Folder that contains feature resources.",
     "directory": "src\\app\\shared\\resources\\features"
   },
   {
-    "key": "200",
+    "key": "211",
     "label": "home.ts",
     "data": "Resources for the home component.",
     "directory": "src\\app\\shared\\resources\\features"
   },
   {
-    "key": "201",
+    "key": "212",
     "label": "menu",
     "data": "Folder that contains the menu resources.",
     "directory": "src\\app\\shared\\resources\\menu"
   },
   {
-    "key": "202",
+    "key": "213",
     "label": "menu-items.ts",
     "data": "Resources for the menu system.",
     "directory": "src\\app\\shared\\resources\\menu"
   },
   {
-    "key": "203",
+    "key": "214",
     "label": "side-menu-items.ts",
     "data": "Resources for the side menu system.",
     "directory": "src\\app\\shared\\resources\\menu"
   },
   {
-    "key": "204",
+    "key": "215",
     "label": "search",
     "data": "Folder that contains the search suggestion resources.",
     "directory": "src\\app\\shared\\resources\\search"
   },
   {
-    "key": "205",
+    "key": "216",
     "label": "search-suggestions.ts",
     "data": "Resources for the search suggestions.",
     "directory": "src\\app\\shared\\resources\\search"
   },
   {
-    "key": "206",
+    "key": "217",
     "label": "shared",
     "data": "Folder that contains shared resources.",
     "directory": "src\\app\\shared\\resources\\shared"
   },
   {
-    "key": "207",
+    "key": "218",
     "label": "components",
     "data": "Folder that contains shared component resources.",
     "directory": "src\\app\\shared\\resources\\shared\\components"
   },
   {
-    "key": "208",
+    "key": "219",
     "label": "error-dialog.ts",
     "data": "Resources for the app.error-dialog component.",
     "directory": "src\\app\\shared\\resources\\shared\\components"
   },
   {
-    "key": "209",
+    "key": "220",
     "label": "footer.ts",
     "data": "Resources for the app.footer-content component.",
     "directory": "src\\app\\shared\\resources\\shared\\components"
   },
   {
-    "key": "210",
+    "key": "221",
     "label": "help-callout.ts",
     "data": "Resources for the app.help-callout component.",
     "directory": "src\\app\\shared\\resources\\shared\\components"
   },
   {
-    "key": "211",
+    "key": "222",
     "label": "topbar.ts",
     "data": "Resources for the app.topbar component.",
     "directory": "src\\app\\shared\\resources\\shared\\components"
   },
   {
-    "key": "212",
+    "key": "223",
     "label": "user-callout.ts",
     "data": "Resources for the app.user-callout component.",
     "directory": "src\\app\\shared\\resources\\shared\\components"
   },
   {
-    "key": "213",
+    "key": "224",
     "label": "auto-logout.ts",
     "data": "Resources for the app.auto-logout component.",
     "directory": "src\\app\\shared\\resources"
   },
   {
-    "key": "214",
+    "key": "225",
     "label": "error.ts",
     "data": "Resources for the app.error-content component",
     "directory": "src\\app\\shared\\resources"
   },
   {
-    "key": "215",
+    "key": "226",
     "label": "no-access.ts",
     "data": "Resources for the app.access-denied-content component",
     "directory": "src\\app\\shared\\resources"
   },
   {
-    "key": "216",
+    "key": "227",
     "label": "not-found.ts",
     "data": "Resources for the app.not-found-content component",
     "directory": "src\\app\\shared\\resources"
   },
   {
-    "key": "217",
+    "key": "228",
     "label": "page-titles.ts",
     "data": "Resources that contains the page titles for the application.",
     "directory": "src\\app\\shared\\resources"
   },
   {
-    "key": "218",
+    "key": "229",
     "label": "project.ts",
     "data": "Resources for the project (projec title and project acronym/short title).",
     "directory": "src\\app\\shared\\resources"
   },
   {
-    "key": "219",
+    "key": "230",
     "label": "user-inactive.ts",
     "data": "Resources for the app.user-inactive-content component",
     "directory": "src\\app\\shared\\resources"
   },
   {
-    "key": "220",
+    "key": "231",
     "label": "user-locked.ts",
     "data": "Resources for the app.user-locked-content component",
     "directory": "src\\app\\shared\\resources"
   },
   {
-    "key": "221",
+    "key": "232",
     "label": "services",
     "data": "Folder that contains the shared services source code files.",
     "directory": "src\\app\\shared\\services"
   },
   {
-    "key": "222",
+    "key": "233",
     "label": "app.auth.service.ts",
     "data": "Shared authentication service source code file.",
     "directory": "src\\app\\shared\\services"
   },
   {
-    "key": "223",
+    "key": "234",
     "label": "app.configuration.service.ts",
     "data": "Shared configuration service source code file.",
     "directory": "src\\app\\shared\\services"
   },
   {
-    "key": "224",
+    "key": "235",
     "label": "app.logging.service.ts",
     "data": "Shared logging service source code file.",
     "directory": "src\\app\\shared\\services"
   },
   {
-    "key": "225",
+    "key": "236",
     "label": "app.loginurl.service.ts",
     "data": "Shared login URL service source code file.",
     "directory": "src\\app\\shared\\services"
   },
   {
-    "key": "226",
+    "key": "237",
     "label": "app.logout.service.ts",
     "data": "Shared logout service source code file.",
     "directory": "src\\app\\shared\\services"
   },
   {
-    "key": "227",
+    "key": "238",
     "label": "app.menu-items.service.ts",
     "data": "Shared menu items service source code file.",
     "directory": "src\\app\\shared\\services"
   },
   {
-    "key": "228",
+    "key": "239",
     "label": "app.resource.service.ts",
     "data": "Shared resources service source code file.",
     "directory": "src\\app\\shared\\services"
   },
   {
-    "key": "229",
+    "key": "240",
     "label": "app.response-codes.service.ts",
     "data": "Shared response codes source code file",
     "directory": "src\\app\\shared\\services"
   },
   {
-    "key": "230",
+    "key": "241",
     "label": "app.search-suggestions.service.ts",
     "data": "Shared search suggestion service source code file.",
     "directory": "src\\app\\shared\\services"
   },
   {
-    "key": "231",
+    "key": "242",
     "label": "app.side-menu-items.service.ts",
     "data": "Shared side menu items service source code file.",
     "directory": "src\\app\\shared\\services"
   },
   {
-    "key": "232",
+    "key": "243",
     "label": "app.user-settings.service.ts",
     "data": "Shared user settings service source code file.",
     "directory": "src\\app\\shared\\services"
   },
   {
-    "key": "233",
+    "key": "244",
     "label": "app.config.ts",
     "data": "Shared application configuration source code file. Set your application configuration here.",
     "directory": "src\\app\\shared"
   },
   {
-    "key": "234",
+    "key": "245",
     "label": "constants.ts",
     "data": "Shared constants source code file.",
     "directory": "src\\app\\shared"
   },
   {
-    "key": "235",
+    "key": "246",
     "label": "permissions.ts",
     "data": "Shared application permissions source code file.",
     "directory": "src\\app\\shared"
   },
   {
-    "key": "236",
+    "key": "247",
     "label": "resources.ts",
     "data": "Shared application resources source code file. This file reads the resources from the resources directory for use throughout your application.",
     "directory": "src\\app\\shared"
   },
   {
-    "key": "237",
+    "key": "248",
     "label": "shared.module.ts",
     "data": "Shared application module source code file.",
     "directory": "src\\app\\shared"
   },
   {
-    "key": "238",
+    "key": "249",
     "label": "app-routing.module.ts",
     "data": "Core application router module source code file.",
     "directory": "src\\app"
   },
   {
-    "key": "239",
+    "key": "250",
     "label": "app.component.html",
     "data": "Core bootstrapped application component HTML file.",
     "directory": "src\\app"
   },
   {
-    "key": "240",
+    "key": "251",
     "label": "app.component.spec.ts",
     "data": "Core bootstrapped application component test file.",
     "directory": "src\\app"
   },
   {
-    "key": "241",
+    "key": "252",
     "label": "app.component.ts",
     "data": "Core bootstrapped application component source code file.",
     "directory": "src\\app"
   },
   {
-    "key": "242",
+    "key": "253",
     "label": "app.main.component.html",
     "data": "Core main application component HTML file.",
     "directory": "src\\app"
   },
   {
-    "key": "243",
+    "key": "254",
     "label": "app.main.component.ts",
     "data": "Core main application component source code file.",
     "directory": "src\\app"
   },
   {
-    "key": "244",
+    "key": "255",
     "label": "app.module.ts",
     "data": "Core application module source code file.",
     "directory": "src\\app"
   },
   {
-    "key": "245",
+    "key": "256",
     "label": "prime.module.ts",
     "data": "PrimeNG application module source code file.",
     "directory": "src\\app"
   },
   {
-    "key": "246",
+    "key": "257",
     "label": "assets",
     "data": "Folder that contains the assets for the application.",
     "directory": "src\\assets"
   },
   {
-    "key": "247",
+    "key": "258",
     "label": "core",
     "data": "Folder that contains the core assets for the application. These file should NOT be changed.",
     "directory": "src\\assets\\core"
   },
   {
-    "key": "248",
+    "key": "259",
     "label": "favicon",
     "data": "Folder that contains the favicon files. Favicon generated from realfavicongenerator.net.",
     "directory": "src\\assets\\core\\favicon"
   },
   {
-    "key": "249",
+    "key": "260",
     "label": "android-chrome-192x192.png",
     "data": "Android chrome 192x192 favicon image.",
     "directory": "src\\assets\\core\\favicon"
   },
   {
-    "key": "250",
+    "key": "261",
     "label": "android-chrome-512x512.png",
     "data": "Android chrome 512x512 favicon image.",
     "directory": "src\\assets\\core\\favicon"
   },
   {
-    "key": "251",
+    "key": "262",
     "label": "apple-touch-icon.png",
     "data": "Apple touch favicon image.",
     "directory": "src\\assets\\core\\favicon"
   },
   {
-    "key": "252",
+    "key": "263",
     "label": "browserconfig.xml",
     "data": "Favicon browser configuration file..",
     "directory": "src\\assets\\core\\favicon"
   },
   {
-    "key": "253",
+    "key": "264",
     "label": "favicon-16x16.png",
     "data": "Favicon 16x16 image.",
     "directory": "src\\assets\\core\\favicon"
   },
   {
-    "key": "254",
+    "key": "265",
     "label": "favicon-32x32.png",
     "data": "Favicon 32x32 image.",
     "directory": "src\\assets\\core\\favicon"
   },
   {
-    "key": "255",
+    "key": "266",
     "label": "favicon.ico",
     "data": "Favicon ico image.",
     "directory": "src\\assets\\core\\favicon"
   },
   {
-    "key": "256",
+    "key": "267",
     "label": "mstile-144x144.png",
     "data": "Favicon MSTile 144x144 image.",
     "directory": "src\\assets\\core\\favicon"
   },
   {
-    "key": "257",
+    "key": "268",
     "label": "mstile-150x150.png",
     "data": "Favicon MSTile 150x150 image.",
     "directory": "src\\assets\\core\\favicon"
   },
   {
-    "key": "258",
+    "key": "269",
     "label": "mstile-310x150.png",
     "data": "Favicon MSTile 310x150 image.",
     "directory": "src\\assets\\core\\favicon"
   },
   {
-    "key": "259",
+    "key": "270",
     "label": "mstile-310x310.png",
     "data": "Favicon MSTile 310x310 image.",
     "directory": "src\\assets\\core\\favicon"
   },
   {
-    "key": "260",
+    "key": "271",
     "label": "mstile-70x70.png",
     "data": "Favicon MSTile 70x70 image.",
     "directory": "src\\assets\\core\\favicon"
   },
   {
-    "key": "261",
+    "key": "272",
     "label": "safari-pinned-tab.svg",
     "data": "Safari pinned tab favicon image.",
     "directory": "src\\assets\\core\\favicon"
   },
   {
-    "key": "262",
+    "key": "273",
     "label": "site.webmanifest.json",
     "data": "Favicon site web manifest file.",
     "directory": "src\\assets\\core\\favicon"
   },
   {
-    "key": "263",
+    "key": "274",
     "label": "layout",
     "data": "Folder that contains the application core layout files.",
     "directory": "src\\assets\\core\\layout"
   },
   {
-    "key": "264",
+    "key": "275",
     "label": "css",
     "data": "Folder that contains the core layout CSS files.",
     "directory": "src\\assets\\core\\layout\\css"
   },
   {
-    "key": "265",
+    "key": "276",
     "label": "layout-faa.css",
     "data": "Core FAA layout CSS file generated from all of the layout Sass files.",
     "directory": "src\\assets\\core\\layout\\css"
   },
   {
-    "key": "266",
+    "key": "277",
     "label": "layout-faa.scss",
     "data": "Core FAA layout Sass file.",
     "directory": "src\\assets\\core\\layout\\css"
   },
   {
-    "key": "267",
+    "key": "278",
     "label": "fonts",
     "data": "Folder that contains all of the core layout fonts.",
     "directory": "src\\assets\\core\\layout\\fonts"
   },
   {
-    "key": "268",
+    "key": "279",
     "label": "open-sans-v18-latin-ext_latin-300.eot",
     "data": "Open sans latin 300 Embedded OpenType file.",
     "directory": "src\\assets\\core\\layout\\fonts"
   },
   {
-    "key": "269",
+    "key": "280",
     "label": "open-sans-v18-latin-ext_latin-300.svg",
     "data": "Open sans latin 300 SVG file.",
     "directory": "src\\assets\\core\\layout\\fonts"
   },
   {
-    "key": "270",
+    "key": "281",
     "label": "open-sans-v18-latin-ext_latin-300.ttf",
     "data": "Open sans latin 300 TrueType font file.",
     "directory": "src\\assets\\core\\layout\\fonts"
   },
   {
-    "key": "271",
+    "key": "282",
     "label": "open-sans-v18-latin-ext_latin-300.woff",
     "data": "Open sans latin 300 Web Open Font Format file.",
     "directory": "src\\assets\\core\\layout\\fonts"
   },
   {
-    "key": "272",
+    "key": "283",
     "label": "open-sans-v18-latin-ext_latin-300.woff2",
     "data": "Open sans latin 300 Web Open Font Format 2.0 file.",
     "directory": "src\\assets\\core\\layout\\fonts"
   },
   {
-    "key": "273",
+    "key": "284",
     "label": "open-sans-v18-latin-ext_latin-600.eot",
     "data": "Open sans latin 600 Embedded OpenType file.",
     "directory": "src\\assets\\core\\layout\\fonts"
   },
   {
-    "key": "274",
+    "key": "285",
     "label": "open-sans-v18-latin-ext_latin-600.svg",
     "data": "Open sans latin 600 SVG file.",
     "directory": "src\\assets\\core\\layout\\fonts"
   },
   {
-    "key": "275",
+    "key": "286",
     "label": "open-sans-v18-latin-ext_latin-600.ttf",
     "data": "Open sans latin 600 TrueType font file.",
     "directory": "src\\assets\\core\\layout\\fonts"
   },
   {
-    "key": "276",
+    "key": "287",
     "label": "open-sans-v18-latin-ext_latin-600.woff",
     "data": "Open sans latin 600 Web Open Font Format file.",
     "directory": "src\\assets\\core\\layout\\fonts"
   },
   {
-    "key": "277",
+    "key": "288",
     "label": "open-sans-v18-latin-ext_latin-600.woff2",
     "data": "Open sans latin 600 Web Open Font Format 2.0 file.",
     "directory": "src\\assets\\core\\layout\\fonts"
   },
   {
-    "key": "278",
+    "key": "289",
     "label": "open-sans-v18-latin-ext_latin-700.eot",
     "data": "Open sans latin 700 Embedded OpenType file.",
     "directory": "src\\assets\\core\\layout\\fonts"
   },
   {
-    "key": "279",
+    "key": "290",
     "label": "open-sans-v18-latin-ext_latin-700.svg",
     "data": "Open sans latin 700 SVG file.",
     "directory": "src\\assets\\core\\layout\\fonts"
   },
   {
-    "key": "280",
+    "key": "291",
     "label": "open-sans-v18-latin-ext_latin-700.ttf",
     "data": "Open sans latin 700 TrueType font file.",
     "directory": "src\\assets\\core\\layout\\fonts"
   },
   {
-    "key": "281",
+    "key": "292",
     "label": "open-sans-v18-latin-ext_latin-700.woff",
     "data": "Open sans latin 700 Web Open Font Format file.",
     "directory": "src\\assets\\core\\layout\\fonts"
   },
   {
-    "key": "282",
+    "key": "293",
     "label": "open-sans-v18-latin-ext_latin-700.woff2",
     "data": "Open sans latin 700 Web Open Font Format 2.0 file.",
     "directory": "src\\assets\\core\\layout\\fonts"
   },
   {
-    "key": "283",
+    "key": "294",
     "label": "open-sans-v18-latin-ext_latin-regular.eot",
     "data": "Open sans latin regular Embedded OpenType file.",
     "directory": "src\\assets\\core\\layout\\fonts"
   },
   {
-    "key": "284",
+    "key": "295",
     "label": "open-sans-v18-latin-ext_latin-regular.svg",
     "data": "Open sans latin regular SVG file.",
     "directory": "src\\assets\\core\\layout\\fonts"
   },
   {
-    "key": "285",
+    "key": "296",
     "label": "open-sans-v18-latin-ext_latin-regular.ttf",
     "data": "Open sans latin regular TrueType font file.",
     "directory": "src\\assets\\core\\layout\\fonts"
   },
   {
-    "key": "286",
+    "key": "297",
     "label": "open-sans-v18-latin-ext_latin-regular.woff",
     "data": "Open sans latin regular Web Open Font Format file.",
     "directory": "src\\assets\\core\\layout\\fonts"
   },
   {
-    "key": "287",
+    "key": "298",
     "label": "open-sans-v18-latin-ext_latin-regular.woff2",
     "data": "Open sans latin regular Web Open Font Format 2.0 file.",
     "directory": "src\\assets\\core\\layout\\fonts"
   },
   {
-    "key": "288",
+    "key": "299",
     "label": "images",
     "data": "Folder that contains core layout images.",
     "directory": "src\\assets\\core\\layout\\images"
   },
   {
-    "key": "289",
+    "key": "300",
     "label": "dot-logo-ribbon.png",
     "data": "Department of transportation top ribbon logo image.",
     "directory": "src\\assets\\core\\layout\\images"
   },
   {
-    "key": "290",
+    "key": "301",
     "label": "dot-logo.svg",
     "data": "Department of transportation logo image.",
     "directory": "src\\assets\\core\\layout\\images"
   },
   {
-    "key": "291",
+    "key": "302",
     "label": "dot-name-logo.svg",
     "data": "Department of transportation name logo image.",
     "directory": "src\\assets\\core\\layout\\images"
   },
   {
-    "key": "292",
+    "key": "303",
     "label": "icon-404.png",
     "data": "404 not found page image.",
     "directory": "src\\assets\\core\\layout\\images"
   },
   {
-    "key": "293",
+    "key": "304",
     "label": "icon-access.png",
     "data": "Not authorized page image.",
     "directory": "src\\assets\\core\\layout\\images"
   },
   {
-    "key": "294",
+    "key": "305",
     "label": "icon-autologout.png",
     "data": "Automatic logout page image.",
     "directory": "src\\assets\\core\\layout\\images"
   },
   {
-    "key": "295",
+    "key": "306",
     "label": "icon-error.png",
     "data": "Error page image.",
     "directory": "src\\assets\\core\\layout\\images"
   },
   {
-    "key": "296",
+    "key": "307",
     "label": "icon-inactive.png",
     "data": "User inactive page image.",
     "directory": "src\\assets\\core\\layout\\images"
   },
   {
-    "key": "297",
+    "key": "308",
     "label": "icon-locked.png",
     "data": "User locked page image.",
     "directory": "src\\assets\\core\\layout\\images"
   },
   {
-    "key": "298",
+    "key": "309",
     "label": "logo.svg",
     "data": "FAA logo image.",
     "directory": "src\\assets\\core\\layout\\images"
   },
   {
-    "key": "299",
+    "key": "310",
     "label": "releases",
     "data": "Folder that contains the zipped releases.",
     "directory": "src\\assets\\core\\releases"
   },
   {
-    "key": "300",
+    "key": "311",
     "label": "5",
     "data": "Folder that contains the zipped releases for version 5.",
     "directory": "src\\assets\\core\\releases\\5"
   },
   {
-    "key": "301",
+    "key": "312",
     "label": "devkit-angular-module-5.0.0.zip",
     "data": "Angular module version 5.0.0 zip file.",
     "directory": "src\\assets\\core\\releases\\5"
   },
   {
-    "key": "302",
+    "key": "313",
     "label": "devkit-auth-module-5.0.0.zip",
     "data": "Auth module version 5.0.0 zip file.",
     "directory": "src\\assets\\core\\releases\\5"
   },
   {
-    "key": "303",
+    "key": "314",
     "label": "sass",
     "data": "Folder that contains the application core sass files.",
     "directory": "src\\assets\\core\\sass"
   },
   {
-    "key": "304",
+    "key": "315",
     "label": "layout",
     "data": "Folder that contains the application core sass layout files.",
     "directory": "src\\assets\\core\\sass\\layout"
   },
   {
-    "key": "305",
+    "key": "316",
     "label": "menu",
     "data": "Folder that contains the application core sass layout menu files.",
     "directory": "src\\assets\\core\\sass\\layout\\menu"
   },
   {
-    "key": "306",
+    "key": "317",
     "label": "themes",
     "data": "Folder that contains the application core sass layout menu theme files.",
     "directory": "src\\assets\\core\\sass\\layout\\menu\\themes"
   },
   {
-    "key": "307",
+    "key": "318",
     "label": "_menu_faa.scss",
     "data": "The sass file that contains the FAA theme variables for the menu system.",
     "directory": "src\\assets\\core\\sass\\layout\\menu\\themes"
   },
   {
-    "key": "308",
+    "key": "319",
     "label": "_menu.scss",
     "data": "Core menu sass file.",
     "directory": "src\\assets\\core\\sass\\layout\\menu"
   },
   {
-    "key": "309",
+    "key": "320",
     "label": "_menu_horizontal.scss",
     "data": "Core horizontal (top) menu sass file.",
     "directory": "src\\assets\\core\\sass\\layout\\menu"
   },
   {
-    "key": "310",
+    "key": "321",
     "label": "_menu_overlay.scss",
     "data": "Core horizontal (top) overlay (mobile) menu sass file.",
     "directory": "src\\assets\\core\\sass\\layout\\menu"
   },
   {
-    "key": "311",
+    "key": "322",
     "label": "_menu_theme.scss",
     "data": "Core horizontal (top) menu theme sass file.",
     "directory": "src\\assets\\core\\sass\\layout\\menu"
   },
   {
-    "key": "312",
+    "key": "323",
     "label": "sidemenu",
     "data": "Folder that contains the application core sass layout side menu files.",
     "directory": "src\\assets\\core\\sass\\layout\\sidemenu"
   },
   {
-    "key": "313",
+    "key": "324",
     "label": "themes",
     "data": "Folder that contains the application core sass layout side menu theme files.",
     "directory": "src\\assets\\core\\sass\\layout\\sidemenu\\themes"
   },
   {
-    "key": "314",
+    "key": "325",
     "label": "_sidemenu_faa.scss",
     "data": "The sass file that contains the FAA theme variables for the side menu system.",
     "directory": "src\\assets\\core\\sass\\layout\\sidemenu\\themes"
   },
   {
-    "key": "315",
+    "key": "326",
     "label": "_sidemenu.scss",
     "data": "Core side menu sass file.",
     "directory": "src\\assets\\core\\sass\\layout\\sidemenu"
   },
   {
-    "key": "316",
+    "key": "327",
     "label": "_sidemenu_horizontal.scss",
     "data": "Core side menu horizontal menu sass file.",
     "directory": "src\\assets\\core\\sass\\layout\\sidemenu"
   },
   {
-    "key": "317",
+    "key": "328",
     "label": "_sidemenu_overlay.scss",
     "data": "Core side menu overlay (mobile) menu sass file.",
     "directory": "src\\assets\\core\\sass\\layout\\sidemenu"
   },
   {
-    "key": "318",
+    "key": "329",
     "label": "_sidemenu_theme.scss",
     "data": "Core side menu theme sass file.",
     "directory": "src\\assets\\core\\sass\\layout\\sidemenu"
   },
   {
-    "key": "319",
+    "key": "330",
     "label": "topbar",
     "data": "Folder that contains the application core sass layout topbar files.",
     "directory": "src\\assets\\core\\sass\\layout\\topbar"
   },
   {
-    "key": "320",
+    "key": "331",
     "label": "themes",
     "data": "Folder that contains the application core sass layout topbar theme files.",
     "directory": "src\\assets\\core\\sass\\layout\\topbar\\themes"
   },
   {
-    "key": "321",
+    "key": "332",
     "label": "_topbar_faa.scss",
     "data": "The sass file that contains the FAA theme variables for the topbar.",
     "directory": "src\\assets\\core\\sass\\layout\\topbar\\themes"
   },
   {
-    "key": "322",
+    "key": "333",
     "label": "_topbar.scss",
     "data": "Core topbar sass file.",
     "directory": "src\\assets\\core\\sass\\layout\\topbar"
   },
   {
-    "key": "323",
+    "key": "334",
     "label": "_topbar_common.scss",
     "data": "Core topbar common sass file.",
     "directory": "src\\assets\\core\\sass\\layout\\topbar"
   },
   {
-    "key": "324",
+    "key": "335",
     "label": "_topbar_theme.scss",
     "data": "Core topbar theme sass file.",
     "directory": "src\\assets\\core\\sass\\layout\\topbar"
   },
   {
-    "key": "325",
+    "key": "336",
     "label": "_animation.scss",
     "data": "Core animation sass file.",
     "directory": "src\\assets\\core\\sass\\layout"
   },
   {
-    "key": "326",
+    "key": "337",
     "label": "_breadcrumb.scss",
     "data": "Core breadcrumb sass file.",
     "directory": "src\\assets\\core\\sass\\layout"
   },
   {
-    "key": "327",
+    "key": "338",
     "label": "_dashboard.scss",
     "data": "Core dashboard sass file.",
     "directory": "src\\assets\\core\\sass\\layout"
   },
   {
-    "key": "328",
+    "key": "339",
     "label": "_exception.scss",
     "data": "Core exception sass file.",
     "directory": "src\\assets\\core\\sass\\layout"
   },
   {
-    "key": "329",
+    "key": "340",
     "label": "_footer.scss",
     "data": "Core footer sass file.",
     "directory": "src\\assets\\core\\sass\\layout"
   },
   {
-    "key": "330",
+    "key": "341",
     "label": "_help.scss",
     "data": "Core help sass file.",
     "directory": "src\\assets\\core\\sass\\layout"
   },
   {
-    "key": "331",
+    "key": "342",
     "label": "_invoice.scss",
     "data": "Core invoice sass file.",
     "directory": "src\\assets\\core\\sass\\layout"
   },
   {
-    "key": "332",
+    "key": "343",
     "label": "_layout.scss",
     "data": "Core layout sass file.",
     "directory": "src\\assets\\core\\sass\\layout"
   },
   {
-    "key": "333",
+    "key": "344",
     "label": "_loader.scss",
     "data": "Core loader sass file.",
     "directory": "src\\assets\\core\\sass\\layout"
   },
   {
-    "key": "334",
+    "key": "345",
     "label": "_login.scss",
     "data": "Core login sass file.",
     "directory": "src\\assets\\core\\sass\\layout"
   },
   {
-    "key": "335",
+    "key": "346",
     "label": "_main.scss",
     "data": "Core main sass file.",
     "directory": "src\\assets\\core\\sass\\layout"
   },
   {
-    "key": "336",
+    "key": "347",
     "label": "_mixins.scss",
     "data": "Core mixins sass file.",
     "directory": "src\\assets\\core\\sass\\layout"
   },
   {
-    "key": "337",
+    "key": "348",
     "label": "_typography.scss",
     "data": "Core typography sass file.",
     "directory": "src\\assets\\core\\sass\\layout"
   },
   {
-    "key": "338",
+    "key": "349",
     "label": "_utils.scss",
     "data": "Core utilities sass file.",
     "directory": "src\\assets\\core\\sass\\layout"
   },
   {
-    "key": "339",
+    "key": "350",
     "label": "_widgets.scss",
     "data": "Core widgets sass file.",
     "directory": "src\\assets\\core\\sass\\layout"
   },
   {
-    "key": "340",
+    "key": "351",
     "label": "theme",
     "data": "Folder that contains the core sass theme files.",
     "directory": "src\\assets\\core\\sass\\theme"
   },
   {
-    "key": "341",
+    "key": "352",
     "label": "designer",
     "data": "Folder that contains the core sass theme designer files.",
     "directory": "src\\assets\\core\\sass\\theme\\designer"
   },
   {
-    "key": "342",
+    "key": "353",
     "label": "components",
     "data": "Folder that contains the core sass theme designer component files.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components"
   },
   {
-    "key": "343",
+    "key": "354",
     "label": "button",
     "data": "Folder that contains the core sass theme designer button component files.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\button"
   },
   {
-    "key": "344",
+    "key": "355",
     "label": "_button.scss",
     "data": "Core button sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\button"
   },
   {
-    "key": "345",
+    "key": "356",
     "label": "_speeddial.scss",
     "data": "Core speed dial sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\button"
   },
   {
-    "key": "346",
+    "key": "357",
     "label": "_splitbutton.scss",
     "data": "Core split button sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\button"
   },
   {
-    "key": "347",
+    "key": "358",
     "label": "data",
     "data": "Folder that contains the core sass theme designer data component files.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\data"
   },
   {
-    "key": "348",
+    "key": "359",
     "label": "_carousel.scss",
     "data": "Core carousel sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\data"
   },
   {
-    "key": "349",
+    "key": "360",
     "label": "_datatable.scss",
     "data": "Core data table sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\data"
   },
   {
-    "key": "350",
+    "key": "361",
     "label": "_dataview.scss",
     "data": "Core data view sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\data"
   },
   {
-    "key": "351",
+    "key": "362",
     "label": "_filter.scss",
     "data": "Core filter sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\data"
   },
   {
-    "key": "352",
+    "key": "363",
     "label": "_fullcalendar.scss",
     "data": "Core full calendar sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\data"
   },
   {
-    "key": "353",
+    "key": "364",
     "label": "_orderlist.scss",
     "data": "Core order list sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\data"
   },
   {
-    "key": "354",
+    "key": "365",
     "label": "_organizationchart.scss",
     "data": "Core organization chart sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\data"
   },
   {
-    "key": "355",
+    "key": "366",
     "label": "_paginator.scss",
     "data": "Core paginator sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\data"
   },
   {
-    "key": "356",
+    "key": "367",
     "label": "_picklist.scss",
     "data": "Core pick list sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\data"
   },
   {
-    "key": "357",
+    "key": "368",
     "label": "_timeline.scss",
     "data": "Core timeline sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\data"
   },
   {
-    "key": "358",
+    "key": "369",
     "label": "_tree.scss",
     "data": "Core tree sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\data"
   },
   {
-    "key": "359",
+    "key": "370",
     "label": "_treetable.scss",
     "data": "Core tree table sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\data"
   },
   {
-    "key": "360",
+    "key": "371",
     "label": "_virtualscroller.scss",
     "data": "Core virtual scroller sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\data"
   },
   {
-    "key": "361",
+    "key": "372",
     "label": "file",
     "data": "Folder that contains the core sass theme designer file component files.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\file"
   },
   {
-    "key": "362",
+    "key": "373",
     "label": "_fileupload.scss",
     "data": "Core file upload sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\file"
   },
   {
-    "key": "363",
+    "key": "374",
     "label": "input",
     "data": "Folder that contains the core sass theme designer input component files.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\input"
   },
   {
-    "key": "364",
+    "key": "375",
     "label": "_autocomplete.scss",
     "data": "Core autocomplete sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\input"
   },
   {
-    "key": "365",
+    "key": "376",
     "label": "_calendar.scss",
     "data": "Core calendar sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\input"
   },
   {
-    "key": "366",
+    "key": "377",
     "label": "_cascadeselect.scss",
     "data": "Core cascade select sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\input"
   },
   {
-    "key": "367",
+    "key": "378",
     "label": "_checkbox.scss",
     "data": "Core checkbox sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\input"
   },
   {
-    "key": "368",
+    "key": "379",
     "label": "_chips.scss",
     "data": "Core chips sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\input"
   },
   {
-    "key": "369",
+    "key": "380",
     "label": "_colorpicker.scss",
     "data": "Core color picker sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\input"
   },
   {
-    "key": "370",
+    "key": "381",
     "label": "_dropdown.scss",
     "data": "Core dropdown sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\input"
   },
   {
-    "key": "371",
+    "key": "382",
     "label": "_editor.scss",
     "data": "Core editor sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\input"
   },
   {
-    "key": "372",
+    "key": "383",
     "label": "_inputgroup.scss",
     "data": "Core input group sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\input"
   },
   {
-    "key": "373",
+    "key": "384",
     "label": "_inputmask.scss",
     "data": "Core input mask sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\input"
   },
   {
-    "key": "374",
+    "key": "385",
     "label": "_inputnumber.scss",
     "data": "Core input number sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\input"
   },
   {
-    "key": "375",
+    "key": "386",
     "label": "_inputswitch.scss",
     "data": "Core input switch sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\input"
   },
   {
-    "key": "376",
+    "key": "387",
     "label": "_inputtext.scss",
     "data": "Core input text sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\input"
   },
   {
-    "key": "377",
+    "key": "388",
     "label": "_listbox.scss",
     "data": "Core listbox sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\input"
   },
   {
-    "key": "378",
+    "key": "389",
     "label": "_multiselect.scss",
     "data": "Core multiselect sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\input"
   },
   {
-    "key": "379",
+    "key": "390",
     "label": "_password.scss",
     "data": "Core password sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\input"
   },
   {
-    "key": "380",
+    "key": "391",
     "label": "_radiobutton.scss",
     "data": "Core radio button sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\input"
   },
   {
-    "key": "381",
+    "key": "392",
     "label": "_rating.scss",
     "data": "Core rating sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\input"
   },
   {
-    "key": "382",
+    "key": "393",
     "label": "_selectbutton.scss",
     "data": "Core select button sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\input"
   },
   {
-    "key": "383",
+    "key": "394",
     "label": "_slider.scss",
     "data": "Core slider sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\input"
   },
   {
-    "key": "384",
+    "key": "395",
     "label": "_togglebutton.scss",
     "data": "Core toggle button sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\input"
   },
   {
-    "key": "385",
+    "key": "396",
     "label": "_treeselect.scss",
     "data": "Core tree select sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\input"
   },
   {
-    "key": "386",
+    "key": "397",
     "label": "menu",
     "data": "Folder that contains the core sass theme designer menu component files.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\menu"
   },
   {
-    "key": "387",
+    "key": "398",
     "label": "_breadcrumb.scss",
     "data": "Core breadcrumb sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\menu"
   },
   {
-    "key": "388",
+    "key": "399",
     "label": "_contextmenu.scss",
     "data": "Core context menu sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\menu"
   },
   {
-    "key": "389",
+    "key": "400",
     "label": "_dock.scss",
     "data": "Core dock sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\menu"
   },
   {
-    "key": "390",
+    "key": "401",
     "label": "_megamenu.scss",
     "data": "Core mega menu sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\menu"
   },
   {
-    "key": "391",
+    "key": "402",
     "label": "_menu.scss",
     "data": "Core calendar sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\menu"
   },
   {
-    "key": "392",
+    "key": "403",
     "label": "_menubar.scss",
     "data": "Core menubar sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\menu"
   },
   {
-    "key": "393",
+    "key": "404",
     "label": "_panelmenu.scss",
     "data": "Core panel menu sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\menu"
   },
   {
-    "key": "394",
+    "key": "405",
     "label": "_slidemenu.scss",
     "data": "Core slide menu sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\menu"
   },
   {
-    "key": "395",
+    "key": "406",
     "label": "_steps.scss",
     "data": "Core steps sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\menu"
   },
   {
-    "key": "396",
+    "key": "407",
     "label": "_tabmenu.scss",
     "data": "Core tabmenu sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\menu"
   },
   {
-    "key": "397",
+    "key": "408",
     "label": "_tieredmenu.scss",
     "data": "Core tiered menu sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\menu"
   },
   {
-    "key": "398",
+    "key": "409",
     "label": "messages",
     "data": "Folder that contains the core sass theme designer message component files.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\messages"
   },
   {
-    "key": "399",
+    "key": "410",
     "label": "_inlinemessage.scss",
     "data": "Core inline message sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\messages"
   },
   {
-    "key": "400",
+    "key": "411",
     "label": "_message.scss",
     "data": "Core message sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\messages"
   },
   {
-    "key": "401",
+    "key": "412",
     "label": "_toast.scss",
     "data": "Core toast sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\messages"
   },
   {
-    "key": "402",
+    "key": "413",
     "label": "misc",
     "data": "Folder that contains the core sass theme designer miscellaneous component files.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\misc"
   },
   {
-    "key": "403",
+    "key": "414",
     "label": "_avatar.scss",
     "data": "Core avatar sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\misc"
   },
   {
-    "key": "404",
+    "key": "415",
     "label": "_badge.scss",
     "data": "Core badge sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\misc"
   },
   {
-    "key": "405",
+    "key": "416",
     "label": "_blockui.scss",
     "data": "Core block ui sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\misc"
   },
   {
-    "key": "406",
+    "key": "417",
     "label": "_chip.scss",
     "data": "Core chips sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\misc"
   },
   {
-    "key": "407",
+    "key": "418",
     "label": "_inplace.scss",
     "data": "Core inplace message sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\misc"
   },
   {
-    "key": "408",
+    "key": "419",
     "label": "_progressbar.scss",
     "data": "Core progress bar sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\misc"
   },
   {
-    "key": "409",
+    "key": "420",
     "label": "_scrolltop.scss",
     "data": "Core scrolltop sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\misc"
   },
   {
-    "key": "410",
+    "key": "421",
     "label": "_skeleton.scss",
     "data": "Core skeleton sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\misc"
   },
   {
-    "key": "411",
+    "key": "422",
     "label": "_tag.scss",
     "data": "Core tag sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\misc"
   },
   {
-    "key": "412",
+    "key": "423",
     "label": "_terminal.scss",
     "data": "Core terminal sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\misc"
   },
   {
-    "key": "413",
+    "key": "424",
     "label": "multimedia",
     "data": "Folder that contains the core sass theme designer multimedia component files.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\multimedia"
   },
   {
-    "key": "414",
+    "key": "425",
     "label": "_galleria.scss",
     "data": "Core galleria sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\multimedia"
   },
   {
-    "key": "415",
+    "key": "426",
     "label": "overlay",
     "data": "Folder that contains the core sass theme designer overlay component files.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\overlay"
   },
   {
-    "key": "416",
+    "key": "427",
     "label": "_confirmpopup.scss",
     "data": "Core confirm popup sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\overlay"
   },
   {
-    "key": "417",
+    "key": "428",
     "label": "_dialog.scss",
     "data": "Core dialog sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\overlay"
   },
   {
-    "key": "418",
+    "key": "429",
     "label": "_overlaypanel.scss",
     "data": "Core overlay panel sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\overlay"
   },
   {
-    "key": "419",
+    "key": "430",
     "label": "_sidebar.scss",
     "data": "Core sidebar sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\overlay"
   },
   {
-    "key": "420",
+    "key": "431",
     "label": "_tooltip.scss",
     "data": "Core tooltip sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\overlay"
   },
   {
-    "key": "421",
+    "key": "432",
     "label": "panel",
     "data": "Folder that contains the core sass theme designer panel component files.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\panel"
   },
   {
-    "key": "422",
+    "key": "433",
     "label": "_accordion.scss",
     "data": "Core accordion sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\panel"
   },
   {
-    "key": "423",
+    "key": "434",
     "label": "_card.scss",
     "data": "Core card sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\panel"
   },
   {
-    "key": "424",
+    "key": "435",
     "label": "_divider.scss",
     "data": "Core divider sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\panel"
   },
   {
-    "key": "425",
+    "key": "436",
     "label": "_fieldset.scss",
     "data": "Core fieldset sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\panel"
   },
   {
-    "key": "426",
+    "key": "437",
     "label": "_panel.scss",
     "data": "Core panel sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\panel"
   },
   {
-    "key": "427",
+    "key": "438",
     "label": "_scrollpanel.scss",
     "data": "Core scroll panel sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\panel"
   },
   {
-    "key": "428",
+    "key": "439",
     "label": "_splitter.scss",
     "data": "Core splitter sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\panel"
   },
   {
-    "key": "429",
+    "key": "440",
     "label": "_tabview.scss",
     "data": "Core tabview sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\panel"
   },
   {
-    "key": "430",
+    "key": "441",
     "label": "_toolbar.scss",
     "data": "Core toolbar sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer\\components\\panel"
   },
   {
-    "key": "431",
+    "key": "442",
     "label": "_colors.scss",
     "data": "Core color processing sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer"
   },
   {
-    "key": "432",
+    "key": "443",
     "label": "_common.scss",
     "data": "Core common sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer"
   },
   {
-    "key": "433",
+    "key": "444",
     "label": "_components.scss",
     "data": "Core components sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer"
   },
   {
-    "key": "434",
+    "key": "445",
     "label": "_mixins.scss",
     "data": "Core mixins sass file.",
     "directory": "src\\assets\\core\\sass\\theme\\designer"
   },
   {
-    "key": "435",
+    "key": "446",
     "label": "_theme_faa.scss",
     "data": "Core FAA theme sass file.",
     "directory": "src\\assets\\core\\sass\\theme"
   },
   {
-    "key": "436",
+    "key": "447",
     "label": "variables",
     "data": "Folder that contains the core variable sass files.",
     "directory": "src\\assets\\core\\sass\\variables"
   },
   {
-    "key": "437",
+    "key": "448",
     "label": "layout",
     "data": "Folder that contains the core layout variable sass files.",
     "directory": "src\\assets\\core\\sass\\variables\\layout"
   },
   {
-    "key": "438",
+    "key": "449",
     "label": "_layout_common.scss",
     "data": "Core common layout variables sass file.",
     "directory": "src\\assets\\core\\sass\\variables\\layout"
   },
   {
-    "key": "439",
+    "key": "450",
     "label": "_layout_faa.scss",
     "data": "Core FAA layout variables sass file.",
     "directory": "src\\assets\\core\\sass\\variables\\layout"
   },
   {
-    "key": "440",
+    "key": "451",
     "label": "theme",
     "data": "Folder that contains the core theme variable sass files.",
     "directory": "src\\assets\\core\\sass\\variables\\theme"
   },
   {
-    "key": "441",
+    "key": "452",
     "label": "_theme_faa.scss",
     "data": "Core FAA theme variables sass file.",
     "directory": "src\\assets\\core\\sass\\variables\\theme"
   },
   {
-    "key": "442",
+    "key": "453",
     "label": "_fonts.scss",
     "data": "Core fonts sass file.",
     "directory": "src\\assets\\core\\sass"
   },
   {
-    "key": "443",
+    "key": "454",
     "label": "theme",
     "data": "Folder that contains the core theme sass files.",
     "directory": "src\\assets\\core\\theme"
   },
   {
-    "key": "444",
+    "key": "455",
     "label": "faa",
     "data": "Folder that contains the core FAA theme sass files.",
     "directory": "src\\assets\\core\\theme\\faa"
   },
   {
-    "key": "445",
+    "key": "456",
     "label": "theme-faa.css",
     "data": "Generated FAA theme css file.",
     "directory": "src\\assets\\core\\theme\\faa"
   },
   {
-    "key": "446",
+    "key": "457",
     "label": "theme-faa.scss",
     "data": "Core FAA theme sass file.",
     "directory": "src\\assets\\core\\theme\\faa"
   },
   {
-    "key": "447",
+    "key": "458",
     "label": "sass",
     "data": "Folder that contains the Sass files for the application to provide overrides of the pre-built Sass styles.",
     "directory": "src\\assets\\sass"
   },
   {
-    "key": "448",
+    "key": "459",
     "label": "overrides",
     "data": "Folder that contains the Sass files for the application to provide overrides of the pre-built Sass styles.",
     "directory": "src\\assets\\sass\\overrides"
   },
   {
-    "key": "449",
+    "key": "460",
     "label": "_layout_styles.scss",
     "data": "File to override layout styles.",
     "directory": "src\\assets\\sass\\overrides"
   },
   {
-    "key": "450",
+    "key": "461",
     "label": "_layout_variables.scss",
     "data": "File to override layout variables. Set the side menu and top menu overlay/mobile width for your application here.",
     "directory": "src\\assets\\sass\\overrides"
   },
   {
-    "key": "451",
+    "key": "462",
     "label": "_theme_styles.scss",
     "data": "File to override theme styles.",
     "directory": "src\\assets\\sass\\overrides"
   },
   {
-    "key": "452",
+    "key": "463",
     "label": "_theme_variables.scss",
     "data": "File to override theme variables.",
     "directory": "src\\assets\\sass\\overrides"
   },
   {
-    "key": "453",
+    "key": "464",
     "label": "environments",
     "data": "Folder that contains the environment configuration files.",
     "directory": "src\\environments"
   },
   {
-    "key": "454",
+    "key": "465",
     "label": "environment.prod.ts",
     "data": "Environment configuration file for the production environment.",
     "directory": "src\\environments"
   },
   {
-    "key": "455",
+    "key": "466",
     "label": "environment.ts",
     "data": "General/default environment configuration file.",
     "directory": "src\\environments"
   },
   {
-    "key": "456",
+    "key": "467",
     "label": "browsercompatibility.css",
     "data": "Browser compatibility CSS file.",
     "directory": "src"
   },
   {
-    "key": "457",
+    "key": "468",
     "label": "browsercompatibility.html",
     "data": "File displayed when the user tries to view the application with an incompatible browser.",
     "directory": "src"
   },
   {
-    "key": "458",
+    "key": "469",
     "label": "index.html",
     "data": "The default HTML page for the single page Angular application.",
     "directory": "src"
   },
   {
-    "key": "459",
+    "key": "470",
     "label": "index.js",
     "data": "Index source code file.",
     "directory": "src"
   },
   {
-    "key": "460",
+    "key": "471",
     "label": "main.ts",
     "data": "This file contains main entry point for the application.",
     "directory": "src"
   },
   {
-    "key": "461",
+    "key": "472",
     "label": "polyfills.ts",
     "data": "File that contains polyfiles used by the application to support older browsers.",
     "directory": "src"
   },
   {
-    "key": "462",
+    "key": "473",
     "label": "styles.scss",
     "data": "Global Sass file for the application. You can add global styles to this file and also import other style files.",
     "directory": "src"
   },
   {
-    "key": "463",
+    "key": "474",
     "label": "test.ts",
     "data": "File used by Karma (karma.conf.js) to recursively load all the .spec and framework files for unit testing.",
     "directory": "src"
   },
   {
-    "key": "464",
+    "key": "475",
     "label": "upload.php",
     "data": "File used by PrimeNG for file upload demo.",
     "directory": "src"
   },
   {
-    "key": "465",
+    "key": "476",
     "label": ".browserslistrc",
     "data": "File used to determine which browsers the application will support.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "466",
+    "key": "477",
     "label": ".editorconfig",
     "data": "EditorConfig configuration file.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "467",
+    "key": "478",
     "label": ".eslintrc.js",
     "data": "ESLint configuration file.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "468",
+    "key": "479",
     "label": ".gitignore",
     "data": "File used to inform Git which application files to ignore.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "469",
+    "key": "480",
     "label": ".prettierignore",
     "data": "File used by prettier to ignore certain artifacts.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "470",
+    "key": "481",
     "label": ".prettierrc.json",
     "data": "File used to configure prettier.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "471",
+    "key": "482",
     "label": "angular.json",
     "data": "Standard angular setup file.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "472",
+    "key": "483",
+    "label": "cypress.json",
+    "data": "Cypress configuration file.",
+    "directory": "C:\\DevProjects\\angular-module-before-faa"
+  },
+  {
+    "key": "484",
+    "label": "e2e-headless.xml",
+    "data": "File that contains End-to-End headless testing results.",
+    "directory": "C:\\DevProjects\\angular-module-before-faa"
+  },
+  {
+    "key": "485",
     "label": "Jenkinsfile",
     "data": "File that sets up Jenkins pipeline.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "473",
+    "key": "486",
     "label": "karma-headless.xml",
     "data": "File that contains Karma headless unit testing results.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "474",
+    "key": "487",
     "label": "karma.conf.js",
     "data": "Karam configuration file for unit testing.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "475",
+    "key": "488",
     "label": "package-lock.json",
     "data": "File generated when packages are installed.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "476",
+    "key": "489",
     "label": "package.json",
     "data": "Standard package file used to setup the application.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "477",
+    "key": "490",
     "label": "proxy.conf.json",
     "data": "Proxy file for use by when proxying to the other DevKit modules.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "478",
+    "key": "491",
     "label": "proxyssl.conf.json",
     "data": "Proxy file for use by when proxying to the other DevKit modules over SSL.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "479",
+    "key": "492",
     "label": "README.md",
     "data": "Read me file for the application.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "480",
+    "key": "493",
     "label": "sonar-project.properties",
     "data": "File used to setup SonarQube scan.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "481",
+    "key": "494",
     "label": "tsconfig.app.json",
     "data": "TypeScript configuration file for the application.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "482",
+    "key": "495",
     "label": "tsconfig.json",
     "data": "General TypeScript configuration file.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "483",
+    "key": "496",
     "label": "tsconfig.spec.json",
     "data": "TypeScript configuration file for the application tests.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"

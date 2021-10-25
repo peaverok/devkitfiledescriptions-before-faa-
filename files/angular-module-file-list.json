@@ -62,7 +62,7 @@
   {
     "key": "10",
     "label": "coverage",
-    "data": "Folder that contains the code coverage results.",
+    "data": "Code coverage report output folder.",
     "directory": "coverage"
   },
   {

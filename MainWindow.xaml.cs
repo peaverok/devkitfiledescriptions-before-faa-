@@ -19,8 +19,9 @@ namespace DevKitFileDescriptions
 
         string projectFolder = @"C:\DevProjects\{module}-module-before-faa";
         string fileListFile = @"files\{module}-module-file-list.json";
-        string[] ignoredFoldersStillKept = { ".git", "dist", "logs", "node_modules", ".nyc_output", "coverage" };
+        string[] ignoredFoldersStillKept = { ".git", "dist", "logs", "node_modules", ".nyc_output", "coverage", ".esbuild", ".serverless" };
         string[] ignoredFolders = { "demo", "devkit", "examples" };
+        string[] ignoredFiles = { "airport.json", "6-airports.ts" };
 
         IList<TreeNode> treeNodes = new List<TreeNode>();
         int key = -1;
@@ -199,30 +200,33 @@ namespace DevKitFileDescriptions
 
                         foreach (System.IO.FileInfo fileInfo in files)
                         {
-                            TreeNode fileNode = new TreeNode();
-                            key++;
-                            fileNode.key = key.ToString();
-                            fileNode.label = fileInfo.Name;
-                            fileNode.data = LookupData(fileInfo.Name, root.FullName.Replace(projectFolder + "\\", ""));
-
-                            if (folderNode != null)
+                            if (ignoredFiles.Contains(fileInfo.Name) == false)
                             {
-                                childTreeNodes.Add(fileNode);
+                                TreeNode fileNode = new TreeNode();
+                                key++;
+                                fileNode.key = key.ToString();
+                                fileNode.label = fileInfo.Name;
+                                fileNode.data = LookupData(fileInfo.Name, root.FullName.Replace(projectFolder + "\\", ""));
+
+                                if (folderNode != null)
+                                {
+                                    childTreeNodes.Add(fileNode);
+                                }
+                                else
+                                {
+                                    treeNodes.Add(fileNode);
+                                }
+
+
+                                MainTreeNode mainFileNode = new MainTreeNode();
+                                mainKey++;
+                                mainFileNode.key = mainKey.ToString();
+                                mainFileNode.label = fileInfo.Name;
+                                mainFileNode.data = LookupData(fileInfo.Name, root.FullName.Replace(projectFolder + "\\", ""));
+                                mainFileNode.directory = root.FullName.Replace(projectFolder + "\\", "");
+
+                                mainNodeList.Add(mainFileNode);
                             }
-                            else
-                            {
-                                treeNodes.Add(fileNode);
-                            }
-
-
-                            MainTreeNode mainFileNode = new MainTreeNode();
-                            mainKey++;
-                            mainFileNode.key = mainKey.ToString();
-                            mainFileNode.label = fileInfo.Name;
-                            mainFileNode.data = LookupData(fileInfo.Name, root.FullName.Replace(projectFolder + "\\", ""));
-                            mainFileNode.directory = root.FullName.Replace(projectFolder + "\\", "");
-
-                            mainNodeList.Add(mainFileNode);
                         }
 
                         if (folderNode != null)

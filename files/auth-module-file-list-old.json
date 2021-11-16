@@ -91,42 +91,48 @@
   },
   {
     "key": "15",
+    "label": "app.test.env",
+    "data": "Local environment file for testing.",
+    "directory": "environment"
+  },
+  {
+    "key": "16",
     "label": "local",
     "data": "Folder that contains local certification files.",
     "directory": "local"
   },
   {
-    "key": "16",
+    "key": "17",
     "label": "cert.pem",
     "data": "Local self-generated certificate file.",
     "directory": "local"
   },
   {
-    "key": "17",
+    "key": "18",
     "label": "devkit-local_IDPMetadata.xml",
     "data": "MyAccess SAML local IDP metadata file.",
     "directory": "local"
   },
   {
-    "key": "18",
+    "key": "19",
     "label": "generateCert",
     "data": "File demonstrating how to generate certificates.",
     "directory": "local"
   },
   {
-    "key": "19",
+    "key": "20",
     "label": "key.pem",
     "data": "Local self-generated certificate key file.",
     "directory": "local"
   },
   {
-    "key": "20",
+    "key": "21",
     "label": "myaccess.cert",
     "data": "MyAccess certificate file for local testing.",
     "directory": "local"
   },
   {
-    "key": "21",
+    "key": "22",
     "label": "okta.cert",
     "data": "Okta certificate file for local testing.",
     "directory": "local"
@@ -344,7 +350,7 @@
   {
     "key": "58",
     "label": "response-codes.service.ts",
-    "data": "Response code serviced source code file.",
+    "data": "Response code service source code file.",
     "directory": "src\\core\\services"
   },
   {
@@ -495,82 +501,112 @@
     "key": "83",
     "label": "tests",
     "data": "Folder that contains the module tests.",
-    "directory": "src\\tests"
+    "directory": "tests"
   },
   {
     "key": "84",
+    "label": "core",
+    "data": "Folder that contains the core tests.",
+    "directory": "tests\\core"
+  },
+  {
+    "key": "85",
+    "label": "app.test.ts",
+    "data": "File that contains the tests for the app.ts source code file.",
+    "directory": "tests\\core"
+  },
+  {
+    "key": "86",
+    "label": "base.test.service.ts",
+    "data": "Base test service source code file.",
+    "directory": "tests"
+  },
+  {
+    "key": "87",
+    "label": "tsconfig.json",
+    "data": "Test TypeScript configuration file.",
+    "directory": "tests"
+  },
+  {
+    "key": "88",
     "label": ".editorconfig",
     "data": "EditorConfig configuration file.",
     "directory": "C:\\DevProjects\\auth-module-before-faa"
   },
   {
-    "key": "85",
+    "key": "89",
     "label": ".eslintrc.js",
     "data": "ESLint configuration file.",
     "directory": "C:\\DevProjects\\auth-module-before-faa"
   },
   {
-    "key": "86",
+    "key": "90",
     "label": ".gitignore",
     "data": "File used to inform Git which module files to ignore.",
     "directory": "C:\\DevProjects\\auth-module-before-faa"
   },
   {
-    "key": "87",
+    "key": "91",
     "label": ".nycrc",
     "data": "Istanbul configuration file.",
     "directory": "C:\\DevProjects\\auth-module-before-faa"
   },
   {
-    "key": "88",
+    "key": "92",
     "label": ".prettierignore",
     "data": "File used by prettier to ignore certain artifacts.",
     "directory": "C:\\DevProjects\\auth-module-before-faa"
   },
   {
-    "key": "89",
+    "key": "93",
     "label": "Jenkinsfile",
     "data": "File that sets up Jenkins pipeline.",
     "directory": "C:\\DevProjects\\auth-module-before-faa"
   },
   {
-    "key": "90",
+    "key": "94",
     "label": "nodemon.json",
     "data": "File that configures nodemon.",
     "directory": "C:\\DevProjects\\auth-module-before-faa"
   },
   {
-    "key": "91",
+    "key": "95",
     "label": "package-lock.json",
     "data": "File generated when packages are installed.",
     "directory": "C:\\DevProjects\\auth-module-before-faa"
   },
   {
-    "key": "92",
+    "key": "96",
     "label": "package.json",
     "data": "Standard package file used to setup the module.",
     "directory": "C:\\DevProjects\\auth-module-before-faa"
   },
   {
-    "key": "93",
+    "key": "97",
     "label": "README.md",
     "data": "Read me file for the module.",
     "directory": "C:\\DevProjects\\auth-module-before-faa"
   },
   {
-    "key": "94",
+    "key": "98",
     "label": "serverless.yml",
     "data": "Serverless setup source code file.",
     "directory": "C:\\DevProjects\\auth-module-before-faa"
   },
   {
-    "key": "95",
+    "key": "99",
     "label": "sonar-project.properties",
     "data": "File used to setup SonarQube scan.",
     "directory": "C:\\DevProjects\\auth-module-before-faa"
   },
   {
-    "key": "96",
+    "key": "100",
+    "label": "test-results.xml",
+    "data": "File that contains the test results.",
+    "directory": "C:\\DevProjects\\auth-module-before-faa"
+  },
+  {
+    "key": "101",
     "label": "tsconfig.json",
     "data": "General TypeScript configuration file.",
     "directory": "C:\\DevProjects\\auth-module-before-faa"

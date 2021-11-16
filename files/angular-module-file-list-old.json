@@ -61,146 +61,146 @@
   },
   {
     "key": "10",
+    "label": "coverage",
+    "data": "Code coverage report output folder.",
+    "directory": "coverage"
+  },
+  {
+    "key": "11",
     "label": "cypress",
     "data": "Folder that contains the contains End-to-End testing files for Cypress.",
     "directory": "cypress"
   },
   {
-    "key": "11",
+    "key": "12",
     "label": "fixtures",
     "data": "Folder that contains the Cypress fixture files.",
     "directory": "cypress\\fixtures"
   },
   {
-    "key": "12",
+    "key": "13",
     "label": "example.json",
     "data": "Example Cypress fixture file.",
     "directory": "cypress\\fixtures"
   },
   {
-    "key": "13",
+    "key": "14",
     "label": "integration",
     "data": "Folder that contains the Cypress integration test source code files.",
     "directory": "cypress\\integration"
   },
   {
-    "key": "14",
+    "key": "15",
     "label": "app.e2e-spec.ts",
     "data": "Sample End-to-End test to test the main page using Cypress.",
     "directory": "cypress\\integration"
   },
   {
-    "key": "15",
+    "key": "16",
     "label": "plugins",
     "data": "Folder that contains the Cypress plugin files.",
     "directory": "cypress\\plugins"
   },
   {
-    "key": "16",
+    "key": "17",
     "label": "index.ts",
     "data": "Default Cypress plugin source code file.",
     "directory": "cypress\\plugins"
   },
   {
-    "key": "17",
+    "key": "18",
     "label": "support",
     "data": "Folder that contains the Cypress support files.",
     "directory": "cypress\\support"
   },
   {
-    "key": "18",
+    "key": "19",
     "label": "commands.ts",
     "data": "Example Cypress commands source code file.",
     "directory": "cypress\\support"
   },
   {
-    "key": "19",
+    "key": "20",
     "label": "index.ts",
     "data": "Example Cypress index source code file.",
     "directory": "cypress\\support"
   },
   {
-    "key": "20",
+    "key": "21",
     "label": "videos",
     "data": "Folder that contains the Cypress video files.",
     "directory": "cypress\\videos"
   },
   {
-    "key": "21",
+    "key": "22",
     "label": "app.e2e-spec.ts.mp4",
     "data": "Example Cypress sample video file.",
     "directory": "cypress\\videos"
   },
   {
-    "key": "22",
+    "key": "23",
     "label": "tsconfig.json",
     "data": "TypeScript configuration file for End-to-End testing.",
     "directory": "cypress"
   },
   {
-    "key": "23",
+    "key": "24",
     "label": "dist",
     "data": "Folder that contains results of the build script.",
     "directory": "dist"
   },
   {
-    "key": "24",
+    "key": "25",
     "label": "local",
     "data": "Folder that contains local certification files.",
     "directory": "local"
   },
   {
-    "key": "25",
+    "key": "26",
     "label": "cert.pem",
     "data": "Local self-generated certificate file.",
     "directory": "local"
   },
   {
-    "key": "26",
+    "key": "27",
     "label": "generateCert",
     "data": "File demonstrating how to generate certificates.",
     "directory": "local"
   },
   {
-    "key": "27",
+    "key": "28",
     "label": "key.pem",
     "data": "Local self-generated certificate key file.",
     "directory": "local"
   },
   {
-    "key": "28",
+    "key": "29",
     "label": "node_modules",
     "data": "Folder that contains all of the node modules for packages defined in package.json",
     "directory": "node_modules"
   },
   {
-    "key": "29",
+    "key": "30",
     "label": "pa11yci",
     "data": "Folder that contains the pa11yci configuration files (including samples).",
     "directory": "pa11yci"
   },
   {
-    "key": "30",
+    "key": "31",
     "label": ".pa11yci-nosystemuse.json",
     "data": "Pa11yci file when no system use notification is configured.",
     "directory": "pa11yci"
   },
   {
-    "key": "31",
+    "key": "32",
     "label": ".pa11yci-systemuse.json",
     "data": "Pa11yci file when the system use notification is configured.",
     "directory": "pa11yci"
   },
   {
-    "key": "32",
+    "key": "33",
     "label": ".pa11yci-testlogin.json",
     "data": "Pa11yci file to demonstrate using the test login.",
-    "directory": "pa11yci"
-  },
-  {
-    "key": "33",
-    "label": "pa11yci-results.json",
-    "data": "File that contains the pa11yci results from the latest scan.",
     "directory": "pa11yci"
   },
   {
@@ -2916,67 +2916,67 @@
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "486",
+    "key": "487",
     "label": "karma-headless.xml",
     "data": "File that contains Karma headless unit testing results.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "487",
+    "key": "488",
     "label": "karma.conf.js",
     "data": "Karam configuration file for unit testing.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "488",
+    "key": "489",
     "label": "package-lock.json",
     "data": "File generated when packages are installed.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "489",
+    "key": "490",
     "label": "package.json",
     "data": "Standard package file used to setup the application.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "490",
+    "key": "491",
     "label": "proxy.conf.json",
     "data": "Proxy file for use by when proxying to the other DevKit modules.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "491",
+    "key": "492",
     "label": "proxyssl.conf.json",
     "data": "Proxy file for use by when proxying to the other DevKit modules over SSL.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "492",
+    "key": "493",
     "label": "README.md",
     "data": "Read me file for the application.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "493",
+    "key": "494",
     "label": "sonar-project.properties",
     "data": "File used to setup SonarQube scan.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "494",
+    "key": "495",
     "label": "tsconfig.app.json",
     "data": "TypeScript configuration file for the application.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "495",
+    "key": "496",
     "label": "tsconfig.json",
     "data": "General TypeScript configuration file.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"
   },
   {
-    "key": "496",
+    "key": "497",
     "label": "tsconfig.spec.json",
     "data": "TypeScript configuration file for the application tests.",
     "directory": "C:\\DevProjects\\angular-module-before-faa"

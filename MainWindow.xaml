@@ -38,6 +38,7 @@
             <ComboBoxItem IsSelected="True" Tag="angular">Angular Module</ComboBoxItem>
             <ComboBoxItem Tag="auth">Auth Module</ComboBoxItem>
             <ComboBoxItem Tag="node">Node Module</ComboBoxItem>
+            <ComboBoxItem Tag="ocr">OCR Module</ComboBoxItem>
         </ComboBox>
 
         <CheckBox x:Name="GenerateFileListCheckBox" VerticalAlignment="Center" Content="Generate New File List" Grid.Column="5" HorizontalAlignment="Left" Grid.Row="3"/>

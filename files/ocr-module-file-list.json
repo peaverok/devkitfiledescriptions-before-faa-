@@ -1,0 +1,620 @@
+﻿[
+  {
+    "key": "0",
+    "label": ".git",
+    "data": "Folder that contains all of the information required for version control using Git.",
+    "directory": ".git"
+  },
+  {
+    "key": "1",
+    "label": ".husky",
+    "data": "Folder that contains Husky hook files and files that assist with Husky hooks.",
+    "directory": ".husky"
+  },
+  {
+    "key": "2",
+    "label": "_",
+    "data": "Container folder for files that assist with Husky hooks.",
+    "directory": ".husky\\_"
+  },
+  {
+    "key": "3",
+    "label": ".gitignore",
+    "data": "File used to inform Git which Husky files to ignore.",
+    "directory": ".husky\\_"
+  },
+  {
+    "key": "4",
+    "label": "husky.sh",
+    "data": "Husky shell executable file used to run hooks in a unix (linux) environment",
+    "directory": ".husky\\_"
+  },
+  {
+    "key": "5",
+    "label": ".gitignore",
+    "data": "File used to inform Git which Husky files to ignore.",
+    "directory": ".husky"
+  },
+  {
+    "key": "6",
+    "label": "pre-commit",
+    "data": "Husky hook to automatically run lint script before commit.",
+    "directory": ".husky"
+  },
+  {
+    "key": "7",
+    "label": ".nyc_output",
+    "data": "Istanbul output folder",
+    "directory": ".nyc_output"
+  },
+  {
+    "key": "8",
+    "label": ".serverless",
+    "data": "Folder that contains the result of the serverless packaging and/or deployment operation.",
+    "directory": ".serverless"
+  },
+  {
+    "key": "9",
+    "label": ".vscode",
+    "data": "Folder that contains VSCode workspace settings files.",
+    "directory": ".vscode"
+  },
+  {
+    "key": "10",
+    "label": "settings.json",
+    "data": "File that contains default VSCode IDE settings.",
+    "directory": ".vscode"
+  },
+  {
+    "key": "11",
+    "label": "coverage",
+    "data": "Code coverage report output folder.",
+    "directory": "coverage"
+  },
+  {
+    "key": "12",
+    "label": "dist",
+    "data": "Folder that contains results of the build script.",
+    "directory": "dist"
+  },
+  {
+    "key": "13",
+    "label": "local",
+    "data": "Folder that contains local certification files.",
+    "directory": "local"
+  },
+  {
+    "key": "14",
+    "label": "samples",
+    "data": "Folder that contains sample files for testing.",
+    "directory": "local\\samples"
+  },
+  {
+    "key": "15",
+    "label": "amazon-textract-text.pdf",
+    "data": "File that contains sample text for testing.",
+    "directory": "local\\samples"
+  },
+  {
+    "key": "16",
+    "label": "employment-application.png",
+    "data": "Sample file with a form and a table.",
+    "directory": "local\\samples"
+  },
+  {
+    "key": "17",
+    "label": "expense-report.png",
+    "data": "Sample table file.",
+    "directory": "local\\samples"
+  },
+  {
+    "key": "18",
+    "label": "form-example-selections.png",
+    "data": "Sample form file with selections.",
+    "directory": "local\\samples"
+  },
+  {
+    "key": "19",
+    "label": "form-example.png",
+    "data": "Sample form file.",
+    "directory": "local\\samples"
+  },
+  {
+    "key": "20",
+    "label": "multiple-tables.png",
+    "data": "Sample file with multiple tables.",
+    "directory": "local\\samples"
+  },
+  {
+    "key": "21",
+    "label": "simple-document-image.jpg",
+    "data": "Sample simple document text file.",
+    "directory": "local\\samples"
+  },
+  {
+    "key": "22",
+    "label": "table-example-selections.png",
+    "data": "Sample table file with selections.",
+    "directory": "local\\samples"
+  },
+  {
+    "key": "23",
+    "label": "two-column-image.jpg",
+    "data": "Sample two column text file.",
+    "directory": "local\\samples"
+  },
+  {
+    "key": "24",
+    "label": "w4-sample.pdf",
+    "data": "Sample w4 file.",
+    "directory": "local\\samples"
+  },
+  {
+    "key": "25",
+    "label": "cert.pem",
+    "data": "Local self-generated certificate file.",
+    "directory": "local"
+  },
+  {
+    "key": "26",
+    "label": "generateCert",
+    "data": "File demonstrating how to generate certificates.",
+    "directory": "local"
+  },
+  {
+    "key": "27",
+    "label": "key.pem",
+    "data": "Local self-generated certificate key file.",
+    "directory": "local"
+  },
+  {
+    "key": "28",
+    "label": "node_modules",
+    "data": "Folder that contains all of the node modules for packages defined in package.json",
+    "directory": "node_modules"
+  },
+  {
+    "key": "29",
+    "label": "src",
+    "data": "Folder that contains the source code and assets for the module.",
+    "directory": "src"
+  },
+  {
+    "key": "30",
+    "label": "functions",
+    "data": "Folder that contains the individual function source code files.",
+    "directory": "src\\functions"
+  },
+  {
+    "key": "31",
+    "label": "service-docs",
+    "data": "Folder that contains the service documents function source code file.",
+    "directory": "src\\functions\\service-docs"
+  },
+  {
+    "key": "32",
+    "label": "handler.ts",
+    "data": "Service documents handler source code file.",
+    "directory": "src\\functions\\service-docs"
+  },
+  {
+    "key": "33",
+    "label": "index.ts",
+    "data": "Service documents index source code file.",
+    "directory": "src\\functions\\service-docs"
+  },
+  {
+    "key": "34",
+    "label": "swagger.json",
+    "data": "Swagger declaration file used to define the RESTful api for use by SwaggerUI.",
+    "directory": "src\\functions\\service-docs"
+  },
+  {
+    "key": "35",
+    "label": "textract-buffer-analyzer",
+    "data": "Folder that contains the textract buffer analyzer function source code file.",
+    "directory": "src\\functions\\textract-buffer-analyzer"
+  },
+  {
+    "key": "36",
+    "label": "handler.ts",
+    "data": "Textract buffer analyzer handler source code file.",
+    "directory": "src\\functions\\textract-buffer-analyzer"
+  },
+  {
+    "key": "37",
+    "label": "index.ts",
+    "data": "Textract buffer analyzer index source code file.",
+    "directory": "src\\functions\\textract-buffer-analyzer"
+  },
+  {
+    "key": "38",
+    "label": "mock.json",
+    "data": "File that contains mock data for testing.",
+    "directory": "src\\functions\\textract-buffer-analyzer"
+  },
+  {
+    "key": "39",
+    "label": "schema.ts",
+    "data": "Schema source code file to ensure input is properly validated.",
+    "directory": "src\\functions\\textract-buffer-analyzer"
+  },
+  {
+    "key": "40",
+    "label": "textract-file-analyzer",
+    "data": "Folder that contains the textract file analyzer function source code file.",
+    "directory": "src\\functions\\textract-file-analyzer"
+  },
+  {
+    "key": "41",
+    "label": "handler.ts",
+    "data": "Textract file analyzer handler source code file.",
+    "directory": "src\\functions\\textract-file-analyzer"
+  },
+  {
+    "key": "42",
+    "label": "index.ts",
+    "data": "Textract file analyzer index source code file.",
+    "directory": "src\\functions\\textract-file-analyzer"
+  },
+  {
+    "key": "43",
+    "label": "mock.json",
+    "data": "File that contains mock data for testing.",
+    "directory": "src\\functions\\textract-file-analyzer"
+  },
+  {
+    "key": "44",
+    "label": "schema.ts",
+    "data": "Schema source code file to ensure input is properly validated.",
+    "directory": "src\\functions\\textract-file-analyzer"
+  },
+  {
+    "key": "45",
+    "label": "index.ts",
+    "data": "Function index source code file.",
+    "directory": "src\\functions"
+  },
+  {
+    "key": "46",
+    "label": "libs",
+    "data": "Folder that contains the library source code files.",
+    "directory": "src\\libs"
+  },
+  {
+    "key": "47",
+    "label": "models",
+    "data": "Folder that contains the library models for the module.",
+    "directory": "src\\libs\\models"
+  },
+  {
+    "key": "48",
+    "label": "access-token.ts",
+    "data": "The access token model source code file.",
+    "directory": "src\\libs\\models"
+  },
+  {
+    "key": "49",
+    "label": "services",
+    "data": "Folder that contains the library services for the module.",
+    "directory": "src\\libs\\services"
+  },
+  {
+    "key": "50",
+    "label": "api-gateway.service.ts",
+    "data": "API gateway service source code file.",
+    "directory": "src\\libs\\services"
+  },
+  {
+    "key": "51",
+    "label": "aws-parameter-store.service.ts",
+    "data": "AWS parameter store service source code file.",
+    "directory": "src\\libs\\services"
+  },
+  {
+    "key": "52",
+    "label": "handler-resolver.service.ts",
+    "data": "Handler resolver service source code file.",
+    "directory": "src\\libs\\services"
+  },
+  {
+    "key": "53",
+    "label": "lambda.service.ts",
+    "data": "Lambda service source code file.",
+    "directory": "src\\libs\\services"
+  },
+  {
+    "key": "54",
+    "label": "response-codes.service.ts",
+    "data": "Response code service source code file.",
+    "directory": "src\\libs\\services"
+  },
+  {
+    "key": "55",
+    "label": "secret.service.ts",
+    "data": "Secret service source code file.",
+    "directory": "src\\libs\\services"
+  },
+  {
+    "key": "56",
+    "label": "textract-analysis.service.ts",
+    "data": "Textract analysis source code file.",
+    "directory": "src\\libs\\services"
+  },
+  {
+    "key": "57",
+    "label": "token.service.ts",
+    "data": "Token secret source code file.",
+    "directory": "src\\libs\\services"
+  },
+  {
+    "key": "58",
+    "label": "typings",
+    "data": "Folder that contains the typings.",
+    "directory": "src\\libs\\typings"
+  },
+  {
+    "key": "59",
+    "label": "document-analysis-result.ts",
+    "data": "Custom document analysis request type source code file.",
+    "directory": "src\\libs\\typings"
+  },
+  {
+    "key": "60",
+    "label": "document-text.ts",
+    "data": "Custom document text type source code file.",
+    "directory": "src\\libs\\typings"
+  },
+  {
+    "key": "61",
+    "label": "environment-configuration.ts",
+    "data": "Custom enviroment Configuration type source code file.",
+    "directory": "src\\libs\\typings"
+  },
+  {
+    "key": "62",
+    "label": "feature-type.ts",
+    "data": "Custom feature type source code file.",
+    "directory": "src\\libs\\typings"
+  },
+  {
+    "key": "63",
+    "label": "form-key-value.ts",
+    "data": "Custom form key value type source code file.",
+    "directory": "src\\libs\\typings"
+  },
+  {
+    "key": "64",
+    "label": "form-value.ts",
+    "data": "Custom form value type source code file.",
+    "directory": "src\\libs\\typings"
+  },
+  {
+    "key": "65",
+    "label": "form-values-map.ts",
+    "data": "Custom form values map type source code file.",
+    "directory": "src\\libs\\typings"
+  },
+  {
+    "key": "66",
+    "label": "form-values.ts",
+    "data": "Custom form values type source code file.",
+    "directory": "src\\libs\\typings"
+  },
+  {
+    "key": "67",
+    "label": "json-response.ts",
+    "data": "Custom JSON response type source code file.",
+    "directory": "src\\libs\\typings"
+  },
+  {
+    "key": "68",
+    "label": "permission.ts",
+    "data": "Custom permission type source code file.",
+    "directory": "src\\libs\\typings"
+  },
+  {
+    "key": "69",
+    "label": "response-code-message.ts",
+    "data": "Custom response code message type source code file.",
+    "directory": "src\\libs\\typings"
+  },
+  {
+    "key": "70",
+    "label": "role.ts",
+    "data": "Custom role type source code file.",
+    "directory": "src\\libs\\typings"
+  },
+  {
+    "key": "71",
+    "label": "sentiment.ts",
+    "data": "Custom sentiment type source code file.",
+    "directory": "src\\libs\\typings"
+  },
+  {
+    "key": "72",
+    "label": "table-child-value.ts",
+    "data": "Custom table child value type source code file.",
+    "directory": "src\\libs\\typings"
+  },
+  {
+    "key": "73",
+    "label": "table-sets.ts",
+    "data": "Custom table sets type source code file.",
+    "directory": "src\\libs\\typings"
+  },
+  {
+    "key": "74",
+    "label": "table-value.ts",
+    "data": "Custom table value type source code file.",
+    "directory": "src\\libs\\typings"
+  },
+  {
+    "key": "75",
+    "label": "text-line.ts",
+    "data": "Custom text line type source code file.",
+    "directory": "src\\libs\\typings"
+  },
+  {
+    "key": "76",
+    "label": "core.config.ts",
+    "data": "File that contains the core configuration.",
+    "directory": "src\\libs"
+  },
+  {
+    "key": "77",
+    "label": "permissions.ts",
+    "data": "Permissions source code file.",
+    "directory": "src\\libs"
+  },
+  {
+    "key": "78",
+    "label": "tests",
+    "data": "Folder that contains the module tests.",
+    "directory": "tests"
+  },
+  {
+    "key": "79",
+    "label": "libs",
+    "data": "Folder that contain the library tests.",
+    "directory": "tests\\libs"
+  },
+  {
+    "key": "80",
+    "label": "services",
+    "data": "Folder that contain the library service tests.",
+    "directory": "tests\\libs\\services"
+  },
+  {
+    "key": "81",
+    "label": "handler-resolver.service.test.ts",
+    "data": "File that contains the tests for the handler resolver service source code file.",
+    "directory": "tests\\libs\\services"
+  },
+  {
+    "key": "82",
+    "label": "permissions.test.ts",
+    "data": "File that contains the tests for the permissions source code file.",
+    "directory": "tests\\libs"
+  },
+  {
+    "key": "83",
+    "label": "base.test.service.ts",
+    "data": "Base test source code file.",
+    "directory": "tests"
+  },
+  {
+    "key": "84",
+    "label": "tsconfig.json",
+    "data": "Test TypeScript configuration file.",
+    "directory": "tests"
+  },
+  {
+    "key": "85",
+    "label": ".editorconfig",
+    "data": "EditorConfig configuration file.",
+    "directory": "C:\\DevProjects\\ocr-module-before-faa"
+  },
+  {
+    "key": "86",
+    "label": ".eslintrc.js",
+    "data": "ESLint configuration file.",
+    "directory": "C:\\DevProjects\\ocr-module-before-faa"
+  },
+  {
+    "key": "87",
+    "label": ".gitignore",
+    "data": "File used to inform Git which module files to ignore.",
+    "directory": "C:\\DevProjects\\ocr-module-before-faa"
+  },
+  {
+    "key": "88",
+    "label": ".npmignore",
+    "data": "File used to inform NPM which module files to ignore.",
+    "directory": "C:\\DevProjects\\ocr-module-before-faa"
+  },
+  {
+    "key": "89",
+    "label": ".nvmrc",
+    "data": "File used to lock down which node version to use.",
+    "directory": "C:\\DevProjects\\ocr-module-before-faa"
+  },
+  {
+    "key": "90",
+    "label": ".nycrc",
+    "data": "Istanbul configuration file.",
+    "directory": "C:\\DevProjects\\ocr-module-before-faa"
+  },
+  {
+    "key": "91",
+    "label": ".prettierignore",
+    "data": "File used by prettier to ignore certain artifacts.",
+    "directory": "C:\\DevProjects\\ocr-module-before-faa"
+  },
+  {
+    "key": "92",
+    "label": "app.env",
+    "data": "Application environment file.",
+    "directory": "C:\\DevProjects\\ocr-module-before-faa"
+  },
+  {
+    "key": "93",
+    "label": "Jenkinsfile",
+    "data": "File that sets up Jenkins pipeline.",
+    "directory": "C:\\DevProjects\\ocr-module-before-faa"
+  },
+  {
+    "key": "94",
+    "label": "package-lock.json",
+    "data": "File generated when packages are installed.",
+    "directory": "C:\\DevProjects\\ocr-module-before-faa"
+  },
+  {
+    "key": "95",
+    "label": "package.json",
+    "data": "Standard package file used to setup the module.",
+    "directory": "C:\\DevProjects\\ocr-module-before-faa"
+  },
+  {
+    "key": "96",
+    "label": "README.md",
+    "data": "Read me file for the module.",
+    "directory": "C:\\DevProjects\\ocr-module-before-faa"
+  },
+  {
+    "key": "97",
+    "label": "serverless.dotenv.config.js",
+    "data": "Source code file to load environment files for serverless packaging.",
+    "directory": "C:\\DevProjects\\ocr-module-before-faa"
+  },
+  {
+    "key": "98",
+    "label": "serverless.ts",
+    "data": "Serverless setup source code file.",
+    "directory": "C:\\DevProjects\\ocr-module-before-faa"
+  },
+  {
+    "key": "99",
+    "label": "sonar-project.properties",
+    "data": "File used to setup SonarQube scan.",
+    "directory": "C:\\DevProjects\\ocr-module-before-faa"
+  },
+  {
+    "key": "100",
+    "label": "test-results.xml",
+    "data": "File that contains the test results.",
+    "directory": "C:\\DevProjects\\ocr-module-before-faa"
+  },
+  {
+    "key": "101",
+    "label": "tsconfig.json",
+    "data": "General TypeScript configuration file.",
+    "directory": "C:\\DevProjects\\ocr-module-before-faa"
+  },
+  {
+    "key": "102",
+    "label": "tsconfig.paths.json",
+    "data": "General TypeScript paths configuration file.",
+    "directory": "C:\\DevProjects\\ocr-module-before-faa"
+  }
+]
